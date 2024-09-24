@@ -1,0 +1,669 @@
+Parsing...
+Contains quantified condition(s): True
+Instantiating...
+Duplicate arguments: Adding equality conditions.
+Trivial rules: Converted to facts.
+Starting instantiation [138 rules]...
+Finding invariants...
+Finding invariants... 7 initial candidates
+[0.000s CPU, 0.002s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups...
+Choosing groups...
+282 uncovered facts (before using the results from the invariant synthesis)
+147 uncovered facts
+Building translation key...
+Building STRIPS to SAS dictionary...
+Translating task...
+Processing axioms...
+Found 0 axioms that are always true and 0 that are always false
+constrained 1170 conditions
+Writing output...
+Done!
+contains_quantified_conditions: 1
+Building causal graph...
+The causal graph is not acyclic.
+variable var9 is not necessary!
+variable var11 is not necessary!
+variable var12 is not necessary!
+variable var13 is not necessary!
+variable var14 is not necessary!
+variable var15 is not necessary!
+variable var16 is not necessary!
+variable var17 is not necessary!
+variable var18 is not necessary!
+variable var19 is not necessary!
+variable var21 is not necessary!
+variable var22 is not necessary!
+variable var23 is not necessary!
+variable var24 is not necessary!
+variable var25 is not necessary!
+variable var26 is not necessary!
+variable var27 is not necessary!
+variable var28 is not necessary!
+variable var29 is not necessary!
+variable var31 is not necessary!
+variable var32 is not necessary!
+variable var33 is not necessary!
+variable var34 is not necessary!
+variable var35 is not necessary!
+variable var36 is not necessary!
+variable var37 is not necessary!
+variable var38 is not necessary!
+variable var39 is not necessary!
+variable var41 is not necessary!
+variable var42 is not necessary!
+variable var43 is not necessary!
+variable var44 is not necessary!
+variable var45 is not necessary!
+variable var46 is not necessary!
+variable var47 is not necessary!
+variable var48 is not necessary!
+variable var49 is not necessary!
+variable var51 is not necessary!
+variable var52 is not necessary!
+variable var53 is not necessary!
+variable var54 is not necessary!
+variable var55 is not necessary!
+variable var56 is not necessary!
+variable var57 is not necessary!
+variable var58 is not necessary!
+variable var59 is not necessary!
+variable var61 is not necessary!
+variable var62 is not necessary!
+variable var63 is not necessary!
+variable var64 is not necessary!
+variable var65 is not necessary!
+variable var66 is not necessary!
+variable var67 is not necessary!
+variable var68 is not necessary!
+variable var69 is not necessary!
+variable var71 is not necessary!
+variable var72 is not necessary!
+variable var73 is not necessary!
+variable var74 is not necessary!
+variable var75 is not necessary!
+variable var76 is not necessary!
+variable var77 is not necessary!
+variable var78 is not necessary!
+variable var79 is not necessary!
+variable var81 is not necessary!
+variable var82 is not necessary!
+variable var83 is not necessary!
+variable var84 is not necessary!
+variable var85 is not necessary!
+variable var86 is not necessary!
+variable var87 is not necessary!
+variable var88 is not necessary!
+variable var89 is not necessary!
+variable var99 is not necessary!
+variable var100 is not necessary!
+variable var101 is not necessary!
+variable var102 is not necessary!
+variable var103 is not necessary!
+variable var104 is not necessary!
+variable var105 is not necessary!
+variable var106 is not necessary!
+variable var107 is not necessary!
+variable var108 is not necessary!
+variable var109 is not necessary!
+variable var110 is not necessary!
+variable var111 is not necessary!
+variable var112 is not necessary!
+variable var113 is not necessary!
+variable var114 is not necessary!
+variable var115 is not necessary!
+variable var116 is not necessary!
+variable var117 is not necessary!
+variable var118 is not necessary!
+variable var119 is not necessary!
+variable var120 is not necessary!
+variable var121 is not necessary!
+variable var122 is not necessary!
+variable var123 is not necessary!
+variable var124 is not necessary!
+variable var125 is not necessary!
+variable var126 is not necessary!
+variable var127 is not necessary!
+variable var128 is not necessary!
+variable var129 is not necessary!
+variable var130 is not necessary!
+variable var131 is not necessary!
+variable var132 is not necessary!
+variable var133 is not necessary!
+variable var134 is not necessary!
+variable var135 is not necessary!
+variable var136 is not necessary!
+variable var137 is not necessary!
+variable var138 is not necessary!
+variable var139 is not necessary!
+variable var140 is not necessary!
+variable var141 is not necessary!
+variable var142 is not necessary!
+variable var143 is not necessary!
+variable var144 is not necessary!
+variable var145 is not necessary!
+variable var146 is not necessary!
+variable var170 is not necessary!
+variable var172 is not necessary!
+variable var174 is not necessary!
+variable var187 is not necessary!
+variable var189 is not necessary!
+variable var202 is not necessary!
+variable var204 is not necessary!
+variable var217 is not necessary!
+variable var219 is not necessary!
+variable var232 is not necessary!
+variable var234 is not necessary!
+variable var247 is not necessary!
+variable var249 is not necessary!
+variable var262 is not necessary!
+variable var264 is not necessary!
+variable var277 is not necessary!
+variable var279 is not necessary!
+variable var292 is not necessary!
+variable var294 is not necessary!
+variable var307 is not necessary!
+variable var320 is not necessary!
+variable var321 is not necessary!
+variable var322 is not necessary!
+variable var323 is not necessary!
+variable var325 is not necessary!
+variable var326 is not necessary!
+variable var327 is not necessary!
+variable var328 is not necessary!
+variable var329 is not necessary!
+variable var330 is not necessary!
+variable var331 is not necessary!
+variable var332 is not necessary!
+variable var333 is not necessary!
+variable var335 is not necessary!
+variable var336 is not necessary!
+variable var337 is not necessary!
+variable var338 is not necessary!
+variable var339 is not necessary!
+variable var340 is not necessary!
+variable var341 is not necessary!
+variable var342 is not necessary!
+variable var343 is not necessary!
+variable var345 is not necessary!
+variable var346 is not necessary!
+variable var347 is not necessary!
+variable var348 is not necessary!
+variable var349 is not necessary!
+variable var350 is not necessary!
+variable var351 is not necessary!
+variable var352 is not necessary!
+variable var353 is not necessary!
+variable var355 is not necessary!
+variable var356 is not necessary!
+variable var357 is not necessary!
+variable var358 is not necessary!
+variable var359 is not necessary!
+variable var360 is not necessary!
+variable var361 is not necessary!
+variable var362 is not necessary!
+variable var363 is not necessary!
+variable var365 is not necessary!
+variable var366 is not necessary!
+variable var367 is not necessary!
+variable var368 is not necessary!
+variable var369 is not necessary!
+variable var370 is not necessary!
+variable var371 is not necessary!
+variable var372 is not necessary!
+variable var373 is not necessary!
+variable var375 is not necessary!
+variable var376 is not necessary!
+variable var377 is not necessary!
+variable var378 is not necessary!
+variable var379 is not necessary!
+variable var380 is not necessary!
+variable var381 is not necessary!
+variable var382 is not necessary!
+variable var383 is not necessary!
+variable var385 is not necessary!
+variable var386 is not necessary!
+variable var387 is not necessary!
+variable var388 is not necessary!
+variable var389 is not necessary!
+variable var390 is not necessary!
+variable var391 is not necessary!
+variable var392 is not necessary!
+variable var393 is not necessary!
+variable var395 is not necessary!
+variable var396 is not necessary!
+variable var397 is not necessary!
+variable var398 is not necessary!
+variable var399 is not necessary!
+variable var400 is not necessary!
+variable var401 is not necessary!
+variable var402 is not necessary!
+variable var403 is not necessary!
+variable var405 is not necessary!
+variable var418 is not necessary!
+variable var443 is not necessary!
+variable var444 is not necessary!
+variable var445 is not necessary!
+variable var446 is not necessary!
+variable var447 is not necessary!
+variable var448 is not necessary!
+variable var449 is not necessary!
+variable var450 is not necessary!
+variable var451 is not necessary!
+variable var452 is not necessary!
+variable var593 is not necessary!
+variable var594 is not necessary!
+variable var595 is not necessary!
+variable var598 is not necessary!
+variable var599 is not necessary!
+373 variables of 607 necessary
+594 of 594 operators necessary.
+800 of 800 Axiom_relational rules necessary.
+297 of 394 Axiom_functional rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+all_operator_indices.size(): 594
+Writing output...
+printing SG 
+373
+done
+
+
+Planner Paramters:
+Anytime Search: Enabled
+Timeout if plan was found: 300 seconds
+Timeout while no plan was found: 300 seconds
+Greedy Search: Disabled
+Verbose: Enabled
+Lazy Heuristic Evaluation: Enabled
+Don't use caching in heuristic.
+Cyclic CG heuristic: Enabled 	Preferred Operators: Disabled
+Makespan heuristic: Disabled 	Preferred Operators: Disabled
+No Heuristic: Disabled
+Cg Heuristic Zero Cost Waiting Transitions: Enabled
+Cg Heuristic Fire Waiting Transitions Only If Local Problems Matches State: Disabled
+PrefOpsOrderedMode: Enabled with 9 goals
+PrefOpsCheapestMode: Disabled with 1000 goals
+PrefOpsMostExpensiveMode: Disabled with 1000 goals
+PrefOpsRandMode: Disabled with 1000 goals
+PrefOpsConcurrentMode: Disabled
+Reset after solution was found: Disabled
+Reward only preferred operators queue: Disabled
+GValues by: Timestamp
+Queue management mode: Priority based
+Known by logical state only filtering: Disabled
+use_subgoals_to_break_makespan_ties: Disabled
+Reschedule plans: Disabled
+Epsilonize internally: Disabled
+Epsilonize externally: Disabled
+Keep original plans: Enabled
+Plan name: "/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt"
+Plan monitor file: "" (no monitoring)
+Monitoring verify timestamps: Disabled
+
+Contains universal conditions: 1
+INIT
+Open list sizes (priorities): 0 (0),  0 (0), 
+Initializing cyclic causal graph heuristic...done.
+Best heuristic values of queues: 1578/-1 [expanded 1 state(s)]
+Best heuristic values of queues: 1319.99/-1 [expanded 3 state(s)]
+Best heuristic values of queues: 1212/-1 [expanded 4 state(s)]
+Best heuristic values of queues: 998.99/-1 [expanded 5 state(s)]
+Best heuristic values of queues: 926.99/-1 [expanded 18 state(s)]
+Best heuristic values of queues: 852/-1 [expanded 21 state(s)]
+Best heuristic values of queues: 788.99/-1 [expanded 23 state(s)]
+Best heuristic values of queues: 749.99/-1 [expanded 46 state(s)]
+Best heuristic values of queues: 740.99/-1 [expanded 48 state(s)]
+Best heuristic values of queues: 711/-1 [expanded 58 state(s)]
+Best heuristic values of queues: 665.99/-1 [expanded 98 state(s)]
+Best heuristic values of queues: 632.99/-1 [expanded 119 state(s)]
+Best heuristic values of queues: 629.99/-1 [expanded 124 state(s)]
+Best heuristic values of queues: 626.99/-1 [expanded 125 state(s)]
+Best heuristic values of queues: 614.99/-1 [expanded 128 state(s)]
+Best heuristic values of queues: 557.99/-1 [expanded 131 state(s)]
+Best heuristic values of queues: 548.99/-1 [expanded 139 state(s)]
+Best heuristic values of queues: 536.99/-1 [expanded 140 state(s)]
+Best heuristic values of queues: 518.99/-1 [expanded 144 state(s)]
+Best heuristic values of queues: 503.99/-1 [expanded 149 state(s)]
+Best heuristic values of queues: 500.99/-1 [expanded 154 state(s)]
+Best heuristic values of queues: 458.99/-1 [expanded 159 state(s)]
+Best heuristic values of queues: 456/-1 [expanded 165 state(s)]
+Best heuristic values of queues: 452.99/-1 [expanded 187 state(s)]
+Best heuristic values of queues: 450/-1 [expanded 194 state(s)]
+Best heuristic values of queues: 449.99/-1 [expanded 208 state(s)]
+Best heuristic values of queues: 443.99/-1 [expanded 226 state(s)]
+Best heuristic values of queues: 413.99/-1 [expanded 327 state(s)]
+Best heuristic values of queues: 384/-1 [expanded 336 state(s)]
+Best heuristic values of queues: 383.99/-1 [expanded 385 state(s)]
+Best heuristic values of queues: 377.99/-1 [expanded 393 state(s)]
+Best heuristic values of queues: 371.99/-1 [expanded 459 state(s)]
+Best heuristic values of queues: 368.99/-1 [expanded 465 state(s)]
+Best heuristic values of queues: 341.99/-1 [expanded 493 state(s)]
+Best heuristic values of queues: 312/-1 [expanded 500 state(s)]
+Best heuristic values of queues: 308.99/-1 [expanded 505 state(s)]
+Best heuristic values of queues: 302.99/-1 [expanded 510 state(s)]
+Best heuristic values of queues: 269.99/-1 [expanded 563 state(s)]
+Best heuristic values of queues: 255/-1 [expanded 588 state(s)]
+Best heuristic values of queues: 212.99/-1 [expanded 602 state(s)]
+Best heuristic values of queues: 204/-1 [expanded 605 state(s)]
+Best heuristic values of queues: 203.99/-1 [expanded 612 state(s)]
+Best heuristic values of queues: 191.99/-1 [expanded 616 state(s)]
+Best heuristic values of queues: 185.99/-1 [expanded 620 state(s)]
+Best heuristic values of queues: 182.99/-1 [expanded 625 state(s)]
+Best heuristic values of queues: 176.99/-1 [expanded 650 state(s)]
+Best heuristic values of queues: 144/-1 [expanded 654 state(s)]
+Best heuristic values of queues: 143.99/-1 [expanded 660 state(s)]
+Best heuristic values of queues: 129/-1 [expanded 667 state(s)]
+Best heuristic values of queues: 123/-1 [expanded 671 state(s)]
+Best heuristic values of queues: 117/-1 [expanded 698 state(s)]
+Best heuristic values of queues: 105/-1 [expanded 706 state(s)]
+Best heuristic values of queues: 81/-1 [expanded 711 state(s)]
+Best heuristic values of queues: 80.99/-1 [expanded 713 state(s)]
+Best heuristic values of queues: 69/-1 [expanded 715 state(s)]
+Best heuristic values of queues: 68.99/-1 [expanded 716 state(s)]
+Best heuristic values of queues: 66/-1 [expanded 717 state(s)]
+Best heuristic values of queues: 35.99/-1 [expanded 720 state(s)]
+Best heuristic values of queues: 6/-1 [expanded 721 state(s)]
+Best heuristic values of queues: 3.89/-1 [expanded 722 state(s)]
+Best heuristic values of queues: 0/-1 [expanded 723 state(s)]
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_62_service) [3.00000000]
+3.00000000: (move_bside train_slt41 track_entry track_55) [3.00000000]
+6.00000000: (move_aside train_slt40 track_62_service track_56) [3.00000000]
+6.00000000: (move_bside train_slt42 track_entry track_59) [3.00000000]
+9.00000000: (move_bside train_slt41 track_55 track_60) [3.00000000]
+9.00000000: (move_bside train_slt43 track_entry track_57) [3.00000000]
+9.00000000: (move_bside train_slt42 track_59 track_60) [3.00000000]
+12.00000000: (move_bside train_slt40 track_56 track_61_service) [3.00000000]
+15.00000000: (move_bside train_slt44 track_entry track_59) [3.00000000]
+15.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+18.00000000: (move_bside train_slt44 track_59 track_62_service) [3.00000000]
+18.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+18.00000000: (move_bside train_slt42 track_60 track_63) [3.00000000]
+21.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+21.00000000: (move_aside train_slt42 track_63 track_60) [3.00000000]
+21.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+21.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+24.00000000: (move_bside train_slt47 track_entry track_52) [3.00000000]
+27.00000000: (move_bside train_slt42 track_60 track_63) [3.00000000]
+45.00000000: (move_aside train_slt40 track_61_service track_56) [3.00000000]
+48.00000000: (move_bside train_slt47 track_52 track_51b) [3.00000000]
+51.00000000: (move_aside train_slt44 track_62_service track_56) [3.00000000]
+51.00000000: (move_aside train_slt47 track_51b track_52) [3.00000000]
+54.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+54.00000000: (move_bside train_slt47 track_52 track_60) [3.00000000]
+57.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+57.00000000: (move_bside train_slt48 track_entry track_57) [3.00000000]
+87.00000000: (move_aside train_slt46 track_62_service track_59) [3.00000000]
+90.00000000: (move_bside train_slt43 track_57 track_61_service) [3.00000000]
+93.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+123.00000000: (move_aside train_slt43 track_61_service track_59) [3.00000000]
+126.00000000: (move_bside train_slt45 track_58 track_62_service) [3.00000000]
+129.00000000: (move_bside train_slt47 track_60 track_63) [3.00000000]
+129.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+129.00000000: (move_aside train_slt42 track_63 track_60) [3.00000000]
+132.00000000: (move_aside train_slt42 track_60 track_58) [3.00000000]
+135.00000000: (move_aside train_slt41 track_63 track_61_service) [3.00000000]
+138.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+159.00000000: (move_aside train_slt45 track_62_service track_57) [3.00000000]
+162.00000000: (move_bside train_slt43 track_59 track_60) [3.00000000]
+165.00000000: (move_bside train_slt44 track_56 track_51b) [3.00000000]
+168.00000000: (move_aside train_slt41 track_61_service track_59) [3.00000000]
+168.00000000: (move_bside train_slt40 track_56 track_60) [3.00000000]
+171.00000000: (move_bside train_slt42 track_58 track_62_service) [3.00000000]
+171.00000000: (move_aside train_slt44 track_51b track_56) [3.00000000]
+174.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+174.00000000: (move_bside train_slt41 track_59 track_51b) [3.00000000]
+177.00000000: (move_aside train_slt41 track_51b track_58) [3.00000000]
+180.00000000: (move_aside train_slt40 track_60 track_55) [3.00000000]
+183.00000000: (move_bside train_slt45 track_57 track_60) [3.00000000]
+204.00000000: (move_bside train_slt42 track_62_service track_63) [3.00000000]
+204.00000000: (move_bside train_slt48 track_57 track_61_service) [3.00000000]
+207.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+237.00000000: (move_bside train_slt48 track_61_service track_63) [3.00000000]
+240.00000000: (move_aside train_slt47 track_63 track_61_service) [3.00000000]
+243.00000000: (service_train train_slt47 track_61_service) [30.00000000]
+273.00000000: (move_aside train_slt47 track_61_service track_58) [3.00000000]
+Solution with original makespan 276 found (ignoring no-moving-targets-rule).
+Plan length: 58 step(s).
+Makespan   : 276
+Makespan   : 276
+INIT
+Open list sizes (priorities): 2792 (-60243),  9187 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_62_service) [3.00000000]
+3.00000000: (move_bside train_slt41 track_entry track_55) [3.00000000]
+6.00000000: (move_aside train_slt40 track_62_service track_56) [3.00000000]
+6.00000000: (move_bside train_slt42 track_entry track_59) [3.00000000]
+9.00000000: (move_bside train_slt41 track_55 track_60) [3.00000000]
+9.00000000: (move_bside train_slt43 track_entry track_57) [3.00000000]
+9.00000000: (move_bside train_slt42 track_59 track_60) [3.00000000]
+12.00000000: (move_bside train_slt40 track_56 track_61_service) [3.00000000]
+15.00000000: (move_bside train_slt44 track_entry track_59) [3.00000000]
+15.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+18.00000000: (move_bside train_slt44 track_59 track_62_service) [3.00000000]
+18.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+18.00000000: (move_bside train_slt42 track_60 track_63) [3.00000000]
+21.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+21.00000000: (move_aside train_slt42 track_63 track_60) [3.00000000]
+21.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+21.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+24.00000000: (move_bside train_slt47 track_entry track_52) [3.00000000]
+27.00000000: (move_bside train_slt42 track_60 track_63) [3.00000000]
+45.00000000: (move_aside train_slt40 track_61_service track_56) [3.00000000]
+48.00000000: (move_bside train_slt47 track_52 track_51b) [3.00000000]
+51.00000000: (move_aside train_slt44 track_62_service track_56) [3.00000000]
+51.00000000: (move_aside train_slt47 track_51b track_52) [3.00000000]
+54.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+54.00000000: (move_bside train_slt47 track_52 track_60) [3.00000000]
+57.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+57.00000000: (move_bside train_slt48 track_entry track_57) [3.00000000]
+87.00000000: (move_aside train_slt46 track_62_service track_59) [3.00000000]
+90.00000000: (move_bside train_slt43 track_57 track_61_service) [3.00000000]
+93.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+123.00000000: (move_aside train_slt43 track_61_service track_59) [3.00000000]
+126.00000000: (move_bside train_slt45 track_58 track_62_service) [3.00000000]
+129.00000000: (move_bside train_slt47 track_60 track_63) [3.00000000]
+129.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+129.00000000: (move_aside train_slt42 track_63 track_60) [3.00000000]
+132.00000000: (move_aside train_slt42 track_60 track_58) [3.00000000]
+135.00000000: (move_aside train_slt41 track_63 track_61_service) [3.00000000]
+138.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+159.00000000: (move_aside train_slt45 track_62_service track_57) [3.00000000]
+162.00000000: (move_bside train_slt43 track_59 track_60) [3.00000000]
+165.00000000: (move_bside train_slt44 track_56 track_51b) [3.00000000]
+168.00000000: (move_aside train_slt41 track_61_service track_59) [3.00000000]
+168.00000000: (move_bside train_slt40 track_56 track_60) [3.00000000]
+171.00000000: (move_bside train_slt42 track_58 track_62_service) [3.00000000]
+171.00000000: (move_aside train_slt44 track_51b track_56) [3.00000000]
+174.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+174.00000000: (move_bside train_slt41 track_59 track_51b) [3.00000000]
+177.00000000: (move_aside train_slt41 track_51b track_58) [3.00000000]
+180.00000000: (move_aside train_slt40 track_60 track_55) [3.00000000]
+183.00000000: (move_bside train_slt45 track_57 track_60) [3.00000000]
+204.00000000: (move_bside train_slt42 track_62_service track_63) [3.00000000]
+204.00000000: (move_bside train_slt48 track_57 track_61_service) [3.00000000]
+207.00000000: (move_bside train_slt48 track_61_service track_63) [3.00000000]
+210.00000000: (move_aside train_slt47 track_63 track_61_service) [3.00000000]
+210.00000000: (move_aside train_slt48 track_63 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_61_service) [30.00000000]
+213.00000000: (service_train train_slt48 track_62_service) [30.00000000]
+243.00000000: (move_bside train_slt47 track_61_service track_63) [3.00000000]
+243.00000000: (move_aside train_slt48 track_62_service track_59) [3.00000000]
+Solution with original makespan 246 found (ignoring no-moving-targets-rule).
+Plan length: 60 step(s).
+Makespan   : 246
+Makespan   : 246
+INIT
+Open list sizes (priorities): 2817 (-60217),  9584 (0), 
+
+Search Time: 10 sec.
+Expanded Nodes: 765 state(s).
+Rate: 76.5 Nodes/s (over 10.0s) 76.5 Nodes/s (total average)
+Generated Nodes: 13641 state(s).
+Rate: 1364.1 Nodes/s (over 10.0s) 1364.1 Nodes/s (total average)
+Overall branching factor by list sizes: 17.8314
+Averaged overall branching factor: Mean 17.90 Std: 7.66 (Num: 762)
+Branching factors by open list:
+Open List 0: Mean 4.77 Std: 2.75 (Num: 762)
+Open List 1: Mean 13.13 Std: 6.30 (Num: 762)
+OpenList sizes: 2818 10005
+Heuristic Computations (per heuristic): 804 Total: 804
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 20 sec.
+Expanded Nodes: 1341 state(s).
+Rate: 57.6 Nodes/s (over 10.0s) 67.0 Nodes/s (total average)
+Generated Nodes: 21672 state(s).
+Rate: 803.1 Nodes/s (over 10.0s) 1083.6 Nodes/s (total average)
+Overall branching factor by list sizes: 16.1611
+Averaged overall branching factor: Mean 16.20 Std: 7.79 (Num: 1338)
+Branching factors by open list:
+Open List 0: Mean 3.59 Std: 2.55 (Num: 1338)
+Open List 1: Mean 12.61 Std: 6.58 (Num: 1338)
+OpenList sizes: 3247 16874
+Heuristic Computations (per heuristic): 1530 Total: 1530
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 30 sec.
+Expanded Nodes: 1896 state(s).
+Rate: 55.5 Nodes/s (over 10.0s) 63.2 Nodes/s (total average)
+Generated Nodes: 27950 state(s).
+Rate: 627.8 Nodes/s (over 10.0s) 931.7 Nodes/s (total average)
+Overall branching factor by list sizes: 14.7416
+Averaged overall branching factor: Mean 14.77 Std: 8.07 (Num: 1892)
+Branching factors by open list:
+Open List 0: Mean 3.09 Std: 2.34 (Num: 1892)
+Open List 1: Mean 11.68 Std: 6.92 (Num: 1892)
+OpenList sizes: 3558 22101
+Heuristic Computations (per heuristic): 2263 Total: 2263
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 40 sec.
+Expanded Nodes: 2434 state(s).
+Rate: 53.8 Nodes/s (over 10.0s) 60.9 Nodes/s (total average)
+Generated Nodes: 33573 state(s).
+Rate: 562.3 Nodes/s (over 10.0s) 839.3 Nodes/s (total average)
+Overall branching factor by list sizes: 13.7933
+Averaged overall branching factor: Mean 13.82 Std: 8.22 (Num: 2430)
+Branching factors by open list:
+Open List 0: Mean 2.80 Std: 2.18 (Num: 2430)
+Open List 1: Mean 11.02 Std: 7.12 (Num: 2430)
+OpenList sizes: 3755 26774
+Heuristic Computations (per heuristic): 3011 Total: 3011
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 50 sec.
+Expanded Nodes: 2853 state(s).
+Rate: 41.9 Nodes/s (over 10.0s) 57.1 Nodes/s (total average)
+Generated Nodes: 36989 state(s).
+Rate: 341.6 Nodes/s (over 10.0s) 739.8 Nodes/s (total average)
+Overall branching factor by list sizes: 12.9649
+Averaged overall branching factor: Mean 13.00 Std: 8.27 (Num: 2845)
+Branching factors by open list:
+Open List 0: Mean 2.64 Std: 2.09 (Num: 2845)
+Open List 1: Mean 10.36 Std: 7.17 (Num: 2845)
+OpenList sizes: 3889 29488
+Heuristic Computations (per heuristic): 3577 Total: 3577
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 60 sec.
+Expanded Nodes: 3325 state(s).
+Rate: 47.2 Nodes/s (over 10.0s) 55.4 Nodes/s (total average)
+Generated Nodes: 42060 state(s).
+Rate: 507.1 Nodes/s (over 10.0s) 701.0 Nodes/s (total average)
+Overall branching factor by list sizes: 12.6496
+Averaged overall branching factor: Mean 12.69 Std: 8.21 (Num: 3315)
+Branching factors by open list:
+Open List 0: Mean 2.53 Std: 1.99 (Num: 3315)
+Open List 1: Mean 10.16 Std: 7.16 (Num: 3315)
+OpenList sizes: 4169 33667
+Heuristic Computations (per heuristic): 4184 Total: 4184
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 70 sec.
+Expanded Nodes: 3763 state(s).
+Rate: 43.8 Nodes/s (over 10.0s) 53.8 Nodes/s (total average)
+Generated Nodes: 46357 state(s).
+Rate: 429.7 Nodes/s (over 10.0s) 662.2 Nodes/s (total average)
+Overall branching factor by list sizes: 12.3192
+Averaged overall branching factor: Mean 12.36 Std: 8.13 (Num: 3750)
+Branching factors by open list:
+Open List 0: Mean 2.45 Std: 1.91 (Num: 3750)
+Open List 1: Mean 9.92 Std: 7.12 (Num: 3750)
+OpenList sizes: 4366 37183
+Heuristic Computations (per heuristic): 4758 Total: 4758
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 80 sec.
+Expanded Nodes: 4167 state(s).
+Rate: 40.4 Nodes/s (over 10.0s) 52.1 Nodes/s (total average)
+Generated Nodes: 50003 state(s).
+Rate: 364.6 Nodes/s (over 10.0s) 625.0 Nodes/s (total average)
+Overall branching factor by list sizes: 11.9998
+Averaged overall branching factor: Mean 12.04 Std: 8.04 (Num: 4154)
+Branching factors by open list:
+Open List 0: Mean 2.38 Std: 1.85 (Num: 4154)
+Open List 1: Mean 9.66 Std: 7.04 (Num: 4154)
+OpenList sizes: 4507 40128
+Heuristic Computations (per heuristic): 5314 Total: 5314
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 90 sec.
+Expanded Nodes: 4585 state(s).
+Rate: 41.8 Nodes/s (over 10.0s) 50.9 Nodes/s (total average)
+Generated Nodes: 53898 state(s).
+Rate: 389.5 Nodes/s (over 10.0s) 598.9 Nodes/s (total average)
+Overall branching factor by list sizes: 11.7553
+Averaged overall branching factor: Mean 11.79 Std: 8.04 (Num: 4571)
+Branching factors by open list:
+Open List 0: Mean 2.32 Std: 1.80 (Num: 4571)
+Open List 1: Mean 9.47 Std: 7.06 (Num: 4571)
+OpenList sizes: 4652 43294
+Heuristic Computations (per heuristic): 5895 Total: 5895
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 100 sec.
+Expanded Nodes: 5056 state(s).
+Rate: 47.1 Nodes/s (over 10.0s) 50.6 Nodes/s (total average)
+Generated Nodes: 58634 state(s).
+Rate: 473.6 Nodes/s (over 10.0s) 586.3 Nodes/s (total average)
+Overall branching factor by list sizes: 11.5969
+Averaged overall branching factor: Mean 11.63 Std: 8.05 (Num: 5042)
+Branching factors by open list:
+Open List 0: Mean 2.27 Std: 1.75 (Num: 5042)
+Open List 1: Mean 9.36 Std: 7.11 (Num: 5042)
+OpenList sizes: 4831 47205
+Heuristic Computations (per heuristic): 6536 Total: 6536
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+Now:  2024-09-18 13:22:27.810067
+('preprocess/preprocess',) {'stdin': <_io.TextIOWrapper name='output.sas' mode='r' encoding='UTF-8'>}
+('search/search', 'y+a+t+300+T+300+u+O+9', 'p', '/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt') {'stdin': <_io.TextIOWrapper name='output' mode='r' encoding='UTF-8'>}

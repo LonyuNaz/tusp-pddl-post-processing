@@ -1,0 +1,1072 @@
+Parsing...
+Contains quantified condition(s): True
+Instantiating...
+Duplicate arguments: Adding equality conditions.
+Trivial rules: Converted to facts.
+Starting instantiation [197 rules]...
+Finding invariants...
+Finding invariants... 20 initial candidates
+[0.010s CPU, 0.008s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups...
+Choosing groups...
+211 uncovered facts (before using the results from the invariant synthesis)
+108 uncovered facts
+Building translation key...
+Building STRIPS to SAS dictionary...
+Translating task...
+Processing axioms...
+Found 0 axioms that are always true and 0 that are always false
+constrained 1284 conditions
+Writing output...
+Done!
+contains_quantified_conditions: 1
+Building causal graph...
+The causal graph is not acyclic.
+variable var8 is not necessary!
+variable var10 is not necessary!
+variable var11 is not necessary!
+variable var12 is not necessary!
+variable var13 is not necessary!
+variable var14 is not necessary!
+variable var15 is not necessary!
+variable var17 is not necessary!
+variable var18 is not necessary!
+variable var19 is not necessary!
+variable var20 is not necessary!
+variable var21 is not necessary!
+variable var22 is not necessary!
+variable var24 is not necessary!
+variable var25 is not necessary!
+variable var26 is not necessary!
+variable var27 is not necessary!
+variable var28 is not necessary!
+variable var29 is not necessary!
+variable var31 is not necessary!
+variable var32 is not necessary!
+variable var33 is not necessary!
+variable var34 is not necessary!
+variable var35 is not necessary!
+variable var36 is not necessary!
+variable var38 is not necessary!
+variable var39 is not necessary!
+variable var40 is not necessary!
+variable var41 is not necessary!
+variable var42 is not necessary!
+variable var43 is not necessary!
+variable var50 is not necessary!
+variable var51 is not necessary!
+variable var52 is not necessary!
+variable var53 is not necessary!
+variable var54 is not necessary!
+variable var55 is not necessary!
+variable var56 is not necessary!
+variable var57 is not necessary!
+variable var58 is not necessary!
+variable var59 is not necessary!
+variable var60 is not necessary!
+variable var61 is not necessary!
+variable var62 is not necessary!
+variable var63 is not necessary!
+variable var64 is not necessary!
+variable var65 is not necessary!
+variable var66 is not necessary!
+variable var67 is not necessary!
+variable var68 is not necessary!
+variable var69 is not necessary!
+variable var70 is not necessary!
+variable var71 is not necessary!
+variable var72 is not necessary!
+variable var73 is not necessary!
+variable var74 is not necessary!
+variable var75 is not necessary!
+variable var76 is not necessary!
+variable var77 is not necessary!
+variable var78 is not necessary!
+variable var79 is not necessary!
+variable var80 is not necessary!
+variable var81 is not necessary!
+variable var82 is not necessary!
+variable var83 is not necessary!
+variable var84 is not necessary!
+variable var85 is not necessary!
+variable var86 is not necessary!
+variable var87 is not necessary!
+variable var88 is not necessary!
+variable var89 is not necessary!
+variable var90 is not necessary!
+variable var91 is not necessary!
+variable var118 is not necessary!
+variable var119 is not necessary!
+variable var231 is not necessary!
+variable var232 is not necessary!
+variable var233 is not necessary!
+variable var234 is not necessary!
+variable var235 is not necessary!
+variable var237 is not necessary!
+variable var238 is not necessary!
+variable var239 is not necessary!
+variable var240 is not necessary!
+variable var241 is not necessary!
+variable var242 is not necessary!
+variable var244 is not necessary!
+variable var245 is not necessary!
+variable var246 is not necessary!
+variable var247 is not necessary!
+variable var248 is not necessary!
+variable var249 is not necessary!
+variable var251 is not necessary!
+variable var252 is not necessary!
+variable var253 is not necessary!
+variable var254 is not necessary!
+variable var255 is not necessary!
+variable var256 is not necessary!
+variable var258 is not necessary!
+variable var259 is not necessary!
+variable var260 is not necessary!
+variable var261 is not necessary!
+variable var262 is not necessary!
+variable var263 is not necessary!
+variable var265 is not necessary!
+variable var266 is not necessary!
+variable var267 is not necessary!
+variable var268 is not necessary!
+variable var269 is not necessary!
+variable var270 is not necessary!
+variable var308 is not necessary!
+variable var309 is not necessary!
+variable var310 is not necessary!
+variable var311 is not necessary!
+variable var312 is not necessary!
+variable var313 is not necessary!
+variable var314 is not necessary!
+variable var426 is not necessary!
+variable var427 is not necessary!
+variable var428 is not necessary!
+variable var430 is not necessary!
+variable var432 is not necessary!
+314 variables of 436 necessary
+648 of 648 operators necessary.
+500 of 500 Axiom_relational rules necessary.
+231 of 268 Axiom_functional rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+all_operator_indices.size(): 648
+Writing output...
+printing SG 
+314
+done
+
+
+Planner Paramters:
+Anytime Search: Enabled
+Timeout if plan was found: 300 seconds
+Timeout while no plan was found: 300 seconds
+Greedy Search: Disabled
+Verbose: Enabled
+Lazy Heuristic Evaluation: Enabled
+Don't use caching in heuristic.
+Cyclic CG heuristic: Enabled 	Preferred Operators: Disabled
+Makespan heuristic: Disabled 	Preferred Operators: Disabled
+No Heuristic: Disabled
+Cg Heuristic Zero Cost Waiting Transitions: Enabled
+Cg Heuristic Fire Waiting Transitions Only If Local Problems Matches State: Disabled
+PrefOpsOrderedMode: Enabled with 6 goals
+PrefOpsCheapestMode: Disabled with 1000 goals
+PrefOpsMostExpensiveMode: Disabled with 1000 goals
+PrefOpsRandMode: Disabled with 1000 goals
+PrefOpsConcurrentMode: Disabled
+Reset after solution was found: Disabled
+Reward only preferred operators queue: Disabled
+GValues by: Timestamp
+Queue management mode: Priority based
+Known by logical state only filtering: Disabled
+use_subgoals_to_break_makespan_ties: Disabled
+Reschedule plans: Disabled
+Epsilonize internally: Disabled
+Epsilonize externally: Disabled
+Keep original plans: Enabled
+Plan name: "/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt"
+Plan monitor file: "" (no monitoring)
+Monitoring verify timestamps: Disabled
+
+Contains universal conditions: 1
+INIT
+Open list sizes (priorities): 0 (0),  0 (0), 
+Initializing cyclic causal graph heuristic...done.
+Best heuristic values of queues: 1048/-1 [expanded 1 state(s)]
+Best heuristic values of queues: 872.99/-1 [expanded 2 state(s)]
+Best heuristic values of queues: 814/-1 [expanded 6 state(s)]
+Best heuristic values of queues: 787.99/-1 [expanded 8 state(s)]
+Best heuristic values of queues: 681.99/-1 [expanded 14 state(s)]
+Best heuristic values of queues: 594.99/-1 [expanded 37 state(s)]
+Best heuristic values of queues: 584.99/-1 [expanded 59 state(s)]
+Best heuristic values of queues: 580/-1 [expanded 60 state(s)]
+Best heuristic values of queues: 540.99/-1 [expanded 63 state(s)]
+Best heuristic values of queues: 489.99/-1 [expanded 144 state(s)]
+Best heuristic values of queues: 484.99/-1 [expanded 155 state(s)]
+Best heuristic values of queues: 474/-1 [expanded 156 state(s)]
+Best heuristic values of queues: 397.99/-1 [expanded 157 state(s)]
+Best heuristic values of queues: 394/-1 [expanded 158 state(s)]
+Best heuristic values of queues: 319.99/-1 [expanded 205 state(s)]
+Best heuristic values of queues: 301/-1 [expanded 230 state(s)]
+Best heuristic values of queues: 250.99/-1 [expanded 247 state(s)]
+Best heuristic values of queues: 238/-1 [expanded 248 state(s)]
+Best heuristic values of queues: 232.99/-1 [expanded 265 state(s)]
+Best heuristic values of queues: 229/-1 [expanded 266 state(s)]
+Best heuristic values of queues: 222.99/-1 [expanded 279 state(s)]
+Best heuristic values of queues: 219/-1 [expanded 280 state(s)]
+Best heuristic values of queues: 218.99/-1 [expanded 294 state(s)]
+Best heuristic values of queues: 207/-1 [expanded 298 state(s)]
+Best heuristic values of queues: 187/-1 [expanded 317 state(s)]
+Best heuristic values of queues: 178/-1 [expanded 415 state(s)]
+Best heuristic values of queues: 171.99/-1 [expanded 445 state(s)]
+Best heuristic values of queues: 168/-1 [expanded 446 state(s)]
+Best heuristic values of queues: 166/-1 [expanded 459 state(s)]
+Best heuristic values of queues: 159.99/-1 [expanded 466 state(s)]
+Best heuristic values of queues: 156/-1 [expanded 467 state(s)]
+Best heuristic values of queues: 143.99/-1 [expanded 480 state(s)]
+Best heuristic values of queues: 134.99/-1 [expanded 481 state(s)]
+Best heuristic values of queues: 129.99/-1 [expanded 482 state(s)]
+Best heuristic values of queues: 121.99/-1 [expanded 483 state(s)]
+Best heuristic values of queues: 104/-1 [expanded 486 state(s)]
+Best heuristic values of queues: 99.99/-1 [expanded 487 state(s)]
+Best heuristic values of queues: 97.99/-1 [expanded 508 state(s)]
+Best heuristic values of queues: 96/-1 [expanded 513 state(s)]
+Best heuristic values of queues: 94.99/-1 [expanded 516 state(s)]
+Best heuristic values of queues: 94/-1 [expanded 517 state(s)]
+Best heuristic values of queues: 81.99/-1 [expanded 518 state(s)]
+Best heuristic values of queues: 78/-1 [expanded 519 state(s)]
+Best heuristic values of queues: 73.99/-1 [expanded 520 state(s)]
+Best heuristic values of queues: 70/-1 [expanded 521 state(s)]
+Best heuristic values of queues: 52.99/-1 [expanded 533 state(s)]
+Best heuristic values of queues: 18/-1 [expanded 534 state(s)]
+Best heuristic values of queues: 5.99/-1 [expanded 535 state(s)]
+Best heuristic values of queues: 2/-1 [expanded 536 state(s)]
+Best heuristic values of queues: 1.89/-1 [expanded 537 state(s)]
+Best heuristic values of queues: 0/-1 [expanded 538 state(s)]
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+179.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+183.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+184.00000000: (exit driver_andy train_slt41 track_60) [4.00000000]
+209.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+213.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+214.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+218.00000000: (enter_aside driver_andy train_slt41 track_60) [4.00000000]
+222.00000000: (move_aside train_slt41 track_60 track_58) [1.00000000]
+223.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+227.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+231.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+232.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+233.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+237.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+241.00000000: (move_aside train_slt42 track_63 track_62_service) [1.00000000]
+242.00000000: (exit driver_andy train_slt42 track_62_service) [4.00000000]
+246.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+276.00000000: (enter_aside driver_andy train_slt42 track_62_service) [4.00000000]
+280.00000000: (move_aside train_slt42 track_62_service track_57) [1.00000000]
+281.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+285.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+289.00000000: (move_bside train_slt41 track_58 track_62_service) [1.00000000]
+290.00000000: (exit driver_andy train_slt41 track_62_service) [4.00000000]
+294.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+324.00000000: (enter_aside driver_andy train_slt41 track_62_service) [4.00000000]
+328.00000000: (move_aside train_slt41 track_62_service track_59) [1.00000000]
+Solution with original makespan 329 found (ignoring no-moving-targets-rule).
+Plan length: 63 step(s).
+Makespan   : 329
+Makespan   : 329
+INIT
+Open list sizes (priorities): 285 (-50294),  1214 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+179.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+183.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+184.00000000: (exit driver_andy train_slt41 track_60) [4.00000000]
+209.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+213.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+214.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+218.00000000: (enter_aside driver_andy train_slt41 track_60) [4.00000000]
+222.00000000: (move_aside train_slt41 track_60 track_58) [1.00000000]
+223.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+227.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+231.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+232.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+233.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+237.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+241.00000000: (move_aside train_slt42 track_63 track_62_service) [1.00000000]
+242.00000000: (exit driver_andy train_slt42 track_62_service) [4.00000000]
+246.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+246.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+250.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+254.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+258.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+262.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+266.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+270.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+274.00000000: (move_bside train_slt41 track_58 track_61_service) [1.00000000]
+275.00000000: (exit driver_andy train_slt41 track_61_service) [4.00000000]
+279.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+279.00000000: (enter_aside driver_andy train_slt42 track_62_service) [4.00000000]
+283.00000000: (move_aside train_slt42 track_62_service track_57) [1.00000000]
+284.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+309.00000000: (enter_aside driver_andy train_slt41 track_61_service) [4.00000000]
+313.00000000: (move_aside train_slt41 track_61_service track_59) [1.00000000]
+Solution with original makespan 314 found (ignoring no-moving-targets-rule).
+Plan length: 69 step(s).
+Makespan   : 314
+Makespan   : 314
+INIT
+Open list sizes (priorities): 294 (-50189),  1394 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+179.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+183.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+184.00000000: (exit driver_andy train_slt41 track_60) [4.00000000]
+209.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+213.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+214.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+218.00000000: (enter_aside driver_andy train_slt41 track_60) [4.00000000]
+222.00000000: (move_aside train_slt41 track_60 track_58) [1.00000000]
+223.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+227.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+231.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+232.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+233.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+237.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+241.00000000: (move_aside train_slt42 track_63 track_62_service) [1.00000000]
+242.00000000: (exit driver_andy train_slt42 track_62_service) [4.00000000]
+246.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+246.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+250.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+254.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+258.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+262.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+266.00000000: (move_bside train_slt41 track_58 track_61_service) [1.00000000]
+267.00000000: (exit driver_andy train_slt41 track_61_service) [4.00000000]
+271.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+276.00000000: (enter_aside driver_andy train_slt42 track_62_service) [4.00000000]
+280.00000000: (move_aside train_slt42 track_62_service track_57) [1.00000000]
+281.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+301.00000000: (enter_aside driver_andy train_slt41 track_61_service) [4.00000000]
+305.00000000: (move_aside train_slt41 track_61_service track_59) [1.00000000]
+Solution with original makespan 306 found (ignoring no-moving-targets-rule).
+Plan length: 67 step(s).
+Makespan   : 306
+Makespan   : 306
+INIT
+Open list sizes (priorities): 299 (-49899),  1872 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+179.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+183.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+184.00000000: (exit driver_andy train_slt41 track_60) [4.00000000]
+209.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+213.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+214.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+218.00000000: (enter_aside driver_andy train_slt41 track_60) [4.00000000]
+222.00000000: (move_aside train_slt41 track_60 track_58) [1.00000000]
+223.00000000: (exit driver_andy train_slt41 track_58) [4.00000000]
+227.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+231.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+232.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+233.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+237.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+241.00000000: (move_aside train_slt42 track_63 track_62_service) [1.00000000]
+242.00000000: (exit driver_andy train_slt42 track_62_service) [4.00000000]
+246.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+246.00000000: (enter_bside driver_andy train_slt41 track_58) [4.00000000]
+250.00000000: (move_bside train_slt41 track_58 track_61_service) [1.00000000]
+251.00000000: (exit driver_andy train_slt41 track_61_service) [4.00000000]
+255.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+276.00000000: (enter_aside driver_andy train_slt42 track_62_service) [4.00000000]
+280.00000000: (move_aside train_slt42 track_62_service track_57) [1.00000000]
+281.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+285.00000000: (enter_aside driver_andy train_slt41 track_61_service) [4.00000000]
+289.00000000: (move_aside train_slt41 track_61_service track_59) [1.00000000]
+Solution with original makespan 290 found (ignoring no-moving-targets-rule).
+Plan length: 63 step(s).
+Makespan   : 290
+Makespan   : 290
+INIT
+Open list sizes (priorities): 306 (-49701),  2177 (0), 
+
+Search Time: 10 sec.
+Expanded Nodes: 1014 state(s).
+Rate: 101.4 Nodes/s (over 10.0s) 101.4 Nodes/s (total average)
+Generated Nodes: 4103 state(s).
+Rate: 410.3 Nodes/s (over 10.0s) 410.3 Nodes/s (total average)
+Overall branching factor by list sizes: 4.04635
+Averaged overall branching factor: Mean 4.16 Std: 3.31 (Num: 987)
+Branching factors by open list:
+Open List 0: Mean 1.76 Std: 1.37 (Num: 987)
+Open List 1: Mean 2.39 Std: 2.30 (Num: 987)
+OpenList sizes: 265 2361
+Heuristic Computations (per heuristic): 1407 Total: 1407
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 20 sec.
+Expanded Nodes: 1920 state(s).
+Rate: 90.6 Nodes/s (over 10.0s) 96.0 Nodes/s (total average)
+Generated Nodes: 7531 state(s).
+Rate: 342.8 Nodes/s (over 10.0s) 376.6 Nodes/s (total average)
+Overall branching factor by list sizes: 3.9224
+Averaged overall branching factor: Mean 3.98 Std: 3.09 (Num: 1893)
+Branching factors by open list:
+Open List 0: Mean 1.72 Std: 1.20 (Num: 1893)
+Open List 1: Mean 2.25 Std: 2.21 (Num: 1893)
+OpenList sizes: 302 4268
+Heuristic Computations (per heuristic): 2744 Total: 2744
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 30 sec.
+Expanded Nodes: 2728 state(s).
+Rate: 80.8 Nodes/s (over 10.0s) 90.9 Nodes/s (total average)
+Generated Nodes: 10645 state(s).
+Rate: 311.4 Nodes/s (over 10.0s) 354.8 Nodes/s (total average)
+Overall branching factor by list sizes: 3.90213
+Averaged overall branching factor: Mean 3.96 Std: 3.06 (Num: 2688)
+Branching factors by open list:
+Open List 0: Mean 1.71 Std: 1.13 (Num: 2688)
+Open List 1: Mean 2.25 Std: 2.24 (Num: 2688)
+OpenList sizes: 304 6058
+Heuristic Computations (per heuristic): 3963 Total: 3963
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 40 sec.
+Expanded Nodes: 3563 state(s).
+Rate: 83.5 Nodes/s (over 10.0s) 89.1 Nodes/s (total average)
+Generated Nodes: 13721 state(s).
+Rate: 307.6 Nodes/s (over 10.0s) 343.0 Nodes/s (total average)
+Overall branching factor by list sizes: 3.85097
+Averaged overall branching factor: Mean 3.90 Std: 3.00 (Num: 3522)
+Branching factors by open list:
+Open List 0: Mean 1.70 Std: 1.10 (Num: 3522)
+Open List 1: Mean 2.20 Std: 2.19 (Num: 3522)
+OpenList sizes: 360 7735
+Heuristic Computations (per heuristic): 5194 Total: 5194
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 50 sec.
+Expanded Nodes: 4316 state(s).
+Rate: 75.3 Nodes/s (over 10.0s) 86.3 Nodes/s (total average)
+Generated Nodes: 16636 state(s).
+Rate: 291.5 Nodes/s (over 10.0s) 332.7 Nodes/s (total average)
+Overall branching factor by list sizes: 3.85449
+Averaged overall branching factor: Mean 3.89 Std: 2.97 (Num: 4275)
+Branching factors by open list:
+Open List 0: Mean 1.70 Std: 1.08 (Num: 4275)
+Open List 1: Mean 2.20 Std: 2.18 (Num: 4275)
+OpenList sizes: 327 9385
+Heuristic Computations (per heuristic): 6342 Total: 6342
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 60 sec.
+Expanded Nodes: 5080 state(s).
+Rate: 76.4 Nodes/s (over 10.0s) 84.7 Nodes/s (total average)
+Generated Nodes: 19697 state(s).
+Rate: 306.1 Nodes/s (over 10.0s) 328.3 Nodes/s (total average)
+Overall branching factor by list sizes: 3.87736
+Averaged overall branching factor: Mean 3.91 Std: 2.98 (Num: 5036)
+Branching factors by open list:
+Open List 0: Mean 1.70 Std: 1.07 (Num: 5036)
+Open List 1: Mean 2.21 Std: 2.20 (Num: 5036)
+OpenList sizes: 401 11137
+Heuristic Computations (per heuristic): 7483 Total: 7483
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+183.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+183.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+184.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+185.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+189.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+193.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+197.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+201.00000000: (move_aside train_slt42 track_63 track_61_service) [1.00000000]
+202.00000000: (exit driver_andy train_slt42 track_61_service) [4.00000000]
+206.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+213.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+217.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+218.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+222.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+236.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+237.00000000: (move_bside train_slt41 track_60 track_63) [1.00000000]
+238.00000000: (exit driver_andy train_slt41 track_63) [4.00000000]
+242.00000000: (enter_aside driver_andy train_slt41 track_63) [4.00000000]
+246.00000000: (move_aside train_slt41 track_63 track_62_service) [1.00000000]
+247.00000000: (exit driver_andy train_slt41 track_62_service) [4.00000000]
+251.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+251.00000000: (enter_aside driver_andy train_slt42 track_61_service) [4.00000000]
+255.00000000: (move_aside train_slt42 track_61_service track_57) [1.00000000]
+256.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+281.00000000: (enter_aside driver_andy train_slt41 track_62_service) [4.00000000]
+285.00000000: (move_aside train_slt41 track_62_service track_59) [1.00000000]
+Solution with original makespan 286 found (ignoring no-moving-targets-rule).
+Plan length: 63 step(s).
+Makespan   : 286
+Makespan   : 286
+INIT
+Open list sizes (priorities): 416 (-42142),  12179 (0), 
+
+Search Time: 70 sec.
+Expanded Nodes: 5751 state(s).
+Rate: 67.1 Nodes/s (over 10.0s) 82.2 Nodes/s (total average)
+Generated Nodes: 22389 state(s).
+Rate: 269.2 Nodes/s (over 10.0s) 319.8 Nodes/s (total average)
+Overall branching factor by list sizes: 3.89306
+Averaged overall branching factor: Mean 3.93 Std: 2.99 (Num: 5702)
+Branching factors by open list:
+Open List 0: Mean 1.69 Std: 1.06 (Num: 5702)
+Open List 1: Mean 2.23 Std: 2.23 (Num: 5702)
+OpenList sizes: 391 12741
+Heuristic Computations (per heuristic): 8532 Total: 8532
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 80 sec.
+Expanded Nodes: 6423 state(s).
+Rate: 67.2 Nodes/s (over 10.0s) 80.3 Nodes/s (total average)
+Generated Nodes: 25097 state(s).
+Rate: 270.8 Nodes/s (over 10.0s) 313.7 Nodes/s (total average)
+Overall branching factor by list sizes: 3.90736
+Averaged overall branching factor: Mean 3.94 Std: 2.99 (Num: 6370)
+Branching factors by open list:
+Open List 0: Mean 1.69 Std: 1.05 (Num: 6370)
+Open List 1: Mean 2.25 Std: 2.24 (Num: 6370)
+OpenList sizes: 430 14311
+Heuristic Computations (per heuristic): 9559 Total: 9559
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+New solution has been found.
+
+Found new plan:
+0.00000000: (enter_bside driver_andy train_slt40 track_entry) [4.00000000]
+4.00000000: (move_bside train_slt40 track_entry track_58) [1.00000000]
+5.00000000: (move_bside train_slt40 track_58 track_62_service) [1.00000000]
+6.00000000: (exit driver_andy train_slt40 track_62_service) [4.00000000]
+10.00000000: (enter_bside driver_andy train_slt41 track_entry) [4.00000000]
+10.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+40.00000000: (move_bside train_slt41 track_entry track_55) [1.00000000]
+41.00000000: (exit driver_andy train_slt41 track_55) [4.00000000]
+45.00000000: (enter_bside driver_andy train_slt42 track_entry) [4.00000000]
+49.00000000: (move_bside train_slt42 track_entry track_54) [1.00000000]
+50.00000000: (exit driver_andy train_slt42 track_54) [4.00000000]
+54.00000000: (enter_bside driver_andy train_slt43 track_entry) [4.00000000]
+58.00000000: (move_bside train_slt43 track_entry track_56) [1.00000000]
+59.00000000: (exit driver_andy train_slt43 track_56) [4.00000000]
+63.00000000: (enter_bside driver_andy train_slt44 track_entry) [4.00000000]
+67.00000000: (move_bside train_slt44 track_entry track_57) [1.00000000]
+68.00000000: (move_bside train_slt44 track_57 track_61_service) [1.00000000]
+69.00000000: (exit driver_andy train_slt44 track_61_service) [4.00000000]
+73.00000000: (service_train train_slt44 track_61_service) [30.00000000]
+103.00000000: (enter_aside driver_andy train_slt44 track_61_service) [4.00000000]
+107.00000000: (move_aside train_slt44 track_61_service track_58) [1.00000000]
+108.00000000: (exit driver_andy train_slt44 track_58) [4.00000000]
+112.00000000: (enter_bside driver_andy train_slt43 track_56) [4.00000000]
+116.00000000: (move_bside train_slt43 track_56 track_61_service) [1.00000000]
+117.00000000: (exit driver_andy train_slt43 track_61_service) [4.00000000]
+121.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+151.00000000: (enter_bside driver_andy train_slt43 track_61_service) [4.00000000]
+155.00000000: (move_bside train_slt43 track_61_service track_63) [1.00000000]
+156.00000000: (exit driver_andy train_slt43 track_63) [4.00000000]
+160.00000000: (enter_bside driver_andy train_slt40 track_62_service) [4.00000000]
+164.00000000: (move_bside train_slt40 track_62_service track_63) [1.00000000]
+165.00000000: (exit driver_andy train_slt40 track_63) [4.00000000]
+169.00000000: (enter_bside driver_andy train_slt45 track_entry) [4.00000000]
+173.00000000: (move_bside train_slt45 track_entry track_59) [1.00000000]
+174.00000000: (move_bside train_slt45 track_59 track_62_service) [1.00000000]
+175.00000000: (exit driver_andy train_slt45 track_62_service) [4.00000000]
+179.00000000: (enter_bside driver_andy train_slt42 track_54) [4.00000000]
+183.00000000: (move_bside train_slt42 track_54 track_60) [1.00000000]
+183.00000000: (service_train train_slt45 track_62_service) [30.00000000]
+184.00000000: (move_bside train_slt42 track_60 track_63) [1.00000000]
+185.00000000: (exit driver_andy train_slt42 track_63) [4.00000000]
+189.00000000: (enter_aside driver_andy train_slt42 track_63) [4.00000000]
+193.00000000: (move_aside train_slt42 track_63 track_61_service) [1.00000000]
+194.00000000: (exit driver_andy train_slt42 track_61_service) [4.00000000]
+198.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+213.00000000: (enter_aside driver_andy train_slt45 track_62_service) [4.00000000]
+217.00000000: (move_aside train_slt45 track_62_service track_56) [1.00000000]
+218.00000000: (exit driver_andy train_slt45 track_56) [4.00000000]
+222.00000000: (enter_bside driver_andy train_slt41 track_55) [4.00000000]
+228.00000000: (move_bside train_slt41 track_55 track_60) [1.00000000]
+229.00000000: (move_bside train_slt41 track_60 track_63) [1.00000000]
+230.00000000: (exit driver_andy train_slt41 track_63) [4.00000000]
+234.00000000: (enter_aside driver_andy train_slt41 track_63) [4.00000000]
+238.00000000: (move_aside train_slt41 track_63 track_62_service) [1.00000000]
+239.00000000: (exit driver_andy train_slt41 track_62_service) [4.00000000]
+243.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+243.00000000: (enter_aside driver_andy train_slt42 track_61_service) [4.00000000]
+247.00000000: (move_aside train_slt42 track_61_service track_57) [1.00000000]
+248.00000000: (exit driver_andy train_slt42 track_57) [4.00000000]
+273.00000000: (enter_aside driver_andy train_slt41 track_62_service) [4.00000000]
+277.00000000: (move_aside train_slt41 track_62_service track_59) [1.00000000]
+Solution with original makespan 278 found (ignoring no-moving-targets-rule).
+Plan length: 61 step(s).
+Makespan   : 278
+Makespan   : 278
+INIT
+Open list sizes (priorities): 449 (-40126),  15076 (0), 
+
+Search Time: 90 sec.
+Expanded Nodes: 7057 state(s).
+Rate: 63.4 Nodes/s (over 10.0s) 78.4 Nodes/s (total average)
+Generated Nodes: 27582 state(s).
+Rate: 248.5 Nodes/s (over 10.0s) 306.5 Nodes/s (total average)
+Overall branching factor by list sizes: 3.90846
+Averaged overall branching factor: Mean 3.94 Std: 2.99 (Num: 6999)
+Branching factors by open list:
+Open List 0: Mean 1.69 Std: 1.04 (Num: 6999)
+Open List 1: Mean 2.25 Std: 2.25 (Num: 6999)
+OpenList sizes: 419 15780
+Heuristic Computations (per heuristic): 10546 Total: 10546
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 100 sec.
+Expanded Nodes: 7671 state(s).
+Rate: 61.4 Nodes/s (over 10.0s) 76.7 Nodes/s (total average)
+Generated Nodes: 30032 state(s).
+Rate: 245.0 Nodes/s (over 10.0s) 300.3 Nodes/s (total average)
+Overall branching factor by list sizes: 3.915
+Averaged overall branching factor: Mean 3.95 Std: 2.99 (Num: 7610)
+Branching factors by open list:
+Open List 0: Mean 1.69 Std: 1.04 (Num: 7610)
+Open List 1: Mean 2.26 Std: 2.25 (Num: 7610)
+OpenList sizes: 430 17187
+Heuristic Computations (per heuristic): 11507 Total: 11507
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 110 sec.
+Expanded Nodes: 8269 state(s).
+Rate: 59.8 Nodes/s (over 10.0s) 75.2 Nodes/s (total average)
+Generated Nodes: 32360 state(s).
+Rate: 232.8 Nodes/s (over 10.0s) 294.2 Nodes/s (total average)
+Overall branching factor by list sizes: 3.91341
+Averaged overall branching factor: Mean 3.95 Std: 2.98 (Num: 8201)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.03 (Num: 8201)
+Open List 1: Mean 2.26 Std: 2.24 (Num: 8201)
+OpenList sizes: 399 18546
+Heuristic Computations (per heuristic): 12431 Total: 12431
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 120 sec.
+Expanded Nodes: 8938 state(s).
+Rate: 66.9 Nodes/s (over 10.0s) 74.5 Nodes/s (total average)
+Generated Nodes: 34855 state(s).
+Rate: 249.5 Nodes/s (over 10.0s) 290.5 Nodes/s (total average)
+Overall branching factor by list sizes: 3.89964
+Averaged overall branching factor: Mean 3.94 Std: 2.98 (Num: 8857)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.03 (Num: 8857)
+Open List 1: Mean 2.25 Std: 2.24 (Num: 8857)
+OpenList sizes: 399 19958
+Heuristic Computations (per heuristic): 13434 Total: 13434
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 130 sec.
+Expanded Nodes: 9637 state(s).
+Rate: 69.9 Nodes/s (over 10.0s) 74.1 Nodes/s (total average)
+Generated Nodes: 37430 state(s).
+Rate: 257.5 Nodes/s (over 10.0s) 287.9 Nodes/s (total average)
+Overall branching factor by list sizes: 3.88399
+Averaged overall branching factor: Mean 3.92 Std: 2.96 (Num: 9554)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 9554)
+Open List 1: Mean 2.24 Std: 2.23 (Num: 9554)
+OpenList sizes: 386 21383
+Heuristic Computations (per heuristic): 14488 Total: 14488
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 140 sec.
+Expanded Nodes: 10396 state(s).
+Rate: 75.9 Nodes/s (over 10.0s) 74.3 Nodes/s (total average)
+Generated Nodes: 40436 state(s).
+Rate: 300.6 Nodes/s (over 10.0s) 288.8 Nodes/s (total average)
+Overall branching factor by list sizes: 3.88957
+Averaged overall branching factor: Mean 3.92 Std: 2.96 (Num: 10310)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 10310)
+Open List 1: Mean 2.24 Std: 2.23 (Num: 10310)
+OpenList sizes: 463 23081
+Heuristic Computations (per heuristic): 15582 Total: 15582
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 150 sec.
+Expanded Nodes: 11061 state(s).
+Rate: 66.5 Nodes/s (over 10.0s) 73.7 Nodes/s (total average)
+Generated Nodes: 43076 state(s).
+Rate: 264.0 Nodes/s (over 10.0s) 287.2 Nodes/s (total average)
+Overall branching factor by list sizes: 3.8944
+Averaged overall branching factor: Mean 3.93 Std: 2.96 (Num: 10972)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 10972)
+Open List 1: Mean 2.24 Std: 2.23 (Num: 10972)
+OpenList sizes: 481 24631
+Heuristic Computations (per heuristic): 16567 Total: 16567
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 160 sec.
+Expanded Nodes: 11708 state(s).
+Rate: 64.7 Nodes/s (over 10.0s) 73.2 Nodes/s (total average)
+Generated Nodes: 45392 state(s).
+Rate: 231.6 Nodes/s (over 10.0s) 283.7 Nodes/s (total average)
+Overall branching factor by list sizes: 3.87701
+Averaged overall branching factor: Mean 3.91 Std: 2.95 (Num: 11612)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 11612)
+Open List 1: Mean 2.23 Std: 2.22 (Num: 11612)
+OpenList sizes: 538 25888
+Heuristic Computations (per heuristic): 17522 Total: 17522
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 170 sec.
+Expanded Nodes: 12372 state(s).
+Rate: 66.4 Nodes/s (over 10.0s) 72.8 Nodes/s (total average)
+Generated Nodes: 47826 state(s).
+Rate: 243.4 Nodes/s (over 10.0s) 281.3 Nodes/s (total average)
+Overall branching factor by list sizes: 3.86566
+Averaged overall branching factor: Mean 3.90 Std: 2.93 (Num: 12276)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 12276)
+Open List 1: Mean 2.22 Std: 2.20 (Num: 12276)
+OpenList sizes: 557 27221
+Heuristic Computations (per heuristic): 18501 Total: 18501
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 180 sec.
+Expanded Nodes: 13073 state(s).
+Rate: 70.1 Nodes/s (over 10.0s) 72.6 Nodes/s (total average)
+Generated Nodes: 50475 state(s).
+Rate: 264.9 Nodes/s (over 10.0s) 280.4 Nodes/s (total average)
+Overall branching factor by list sizes: 3.86101
+Averaged overall branching factor: Mean 3.89 Std: 2.93 (Num: 12976)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.02 (Num: 12976)
+Open List 1: Mean 2.21 Std: 2.19 (Num: 12976)
+OpenList sizes: 593 28666
+Heuristic Computations (per heuristic): 19523 Total: 19523
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 190 sec.
+Expanded Nodes: 13734 state(s).
+Rate: 66.1 Nodes/s (over 10.0s) 72.3 Nodes/s (total average)
+Generated Nodes: 52958 state(s).
+Rate: 248.3 Nodes/s (over 10.0s) 278.7 Nodes/s (total average)
+Overall branching factor by list sizes: 3.85598
+Averaged overall branching factor: Mean 3.88 Std: 2.92 (Num: 13637)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 13637)
+Open List 1: Mean 2.20 Std: 2.19 (Num: 13637)
+OpenList sizes: 621 30057
+Heuristic Computations (per heuristic): 20495 Total: 20495
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 200 sec.
+Expanded Nodes: 14347 state(s).
+Rate: 61.3 Nodes/s (over 10.0s) 71.7 Nodes/s (total average)
+Generated Nodes: 55261 state(s).
+Rate: 230.3 Nodes/s (over 10.0s) 276.3 Nodes/s (total average)
+Overall branching factor by list sizes: 3.85175
+Averaged overall branching factor: Mean 3.88 Std: 2.91 (Num: 14250)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 14250)
+Open List 1: Mean 2.20 Std: 2.18 (Num: 14250)
+OpenList sizes: 644 31335
+Heuristic Computations (per heuristic): 21404 Total: 21404
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 210 sec.
+Expanded Nodes: 14974 state(s).
+Rate: 62.7 Nodes/s (over 10.0s) 71.3 Nodes/s (total average)
+Generated Nodes: 57667 state(s).
+Rate: 240.6 Nodes/s (over 10.0s) 274.6 Nodes/s (total average)
+Overall branching factor by list sizes: 3.85114
+Averaged overall branching factor: Mean 3.88 Std: 2.91 (Num: 14877)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 14877)
+Open List 1: Mean 2.20 Std: 2.17 (Num: 14877)
+OpenList sizes: 662 32683
+Heuristic Computations (per heuristic): 22323 Total: 22323
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 220 sec.
+Expanded Nodes: 15482 state(s).
+Rate: 50.8 Nodes/s (over 10.0s) 70.4 Nodes/s (total average)
+Generated Nodes: 59503 state(s).
+Rate: 183.6 Nodes/s (over 10.0s) 270.5 Nodes/s (total average)
+Overall branching factor by list sizes: 3.84337
+Averaged overall branching factor: Mean 3.87 Std: 2.90 (Num: 15378)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 15378)
+Open List 1: Mean 2.19 Std: 2.16 (Num: 15378)
+OpenList sizes: 642 33660
+Heuristic Computations (per heuristic): 23122 Total: 23122
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 230 sec.
+Expanded Nodes: 16042 state(s).
+Rate: 56.0 Nodes/s (over 10.0s) 69.7 Nodes/s (total average)
+Generated Nodes: 61575 state(s).
+Rate: 207.2 Nodes/s (over 10.0s) 267.7 Nodes/s (total average)
+Overall branching factor by list sizes: 3.83836
+Averaged overall branching factor: Mean 3.87 Std: 2.90 (Num: 15931)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 15931)
+Open List 1: Mean 2.18 Std: 2.16 (Num: 15931)
+OpenList sizes: 627 34792
+Heuristic Computations (per heuristic): 23984 Total: 23984
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 240 sec.
+Expanded Nodes: 16642 state(s).
+Rate: 60.0 Nodes/s (over 10.0s) 69.3 Nodes/s (total average)
+Generated Nodes: 63847 state(s).
+Rate: 227.2 Nodes/s (over 10.0s) 266.0 Nodes/s (total average)
+Overall branching factor by list sizes: 3.8365
+Averaged overall branching factor: Mean 3.86 Std: 2.90 (Num: 16522)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.01 (Num: 16522)
+Open List 1: Mean 2.18 Std: 2.16 (Num: 16522)
+OpenList sizes: 632 36064
+Heuristic Computations (per heuristic): 24878 Total: 24878
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+

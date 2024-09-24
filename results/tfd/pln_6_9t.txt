@@ -1,0 +1,1236 @@
+Parsing...
+Contains quantified condition(s): True
+Instantiating...
+Duplicate arguments: Adding equality conditions.
+Trivial rules: Converted to facts.
+Starting instantiation [148 rules]...
+Finding invariants...
+Finding invariants... 7 initial candidates
+[0.000s CPU, 0.001s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups...
+Choosing groups...
+283 uncovered facts (before using the results from the invariant synthesis)
+148 uncovered facts
+Building translation key...
+Building STRIPS to SAS dictionary...
+Translating task...
+Processing axioms...
+Found 0 axioms that are always true and 0 that are always false
+constrained 594 conditions
+Writing output...
+Done!
+contains_quantified_conditions: 1
+Building causal graph...
+The causal graph is not acyclic.
+variable var9 is not necessary!
+variable var11 is not necessary!
+variable var12 is not necessary!
+variable var13 is not necessary!
+variable var14 is not necessary!
+variable var15 is not necessary!
+variable var16 is not necessary!
+variable var17 is not necessary!
+variable var18 is not necessary!
+variable var19 is not necessary!
+variable var21 is not necessary!
+variable var22 is not necessary!
+variable var23 is not necessary!
+variable var24 is not necessary!
+variable var25 is not necessary!
+variable var26 is not necessary!
+variable var27 is not necessary!
+variable var28 is not necessary!
+variable var29 is not necessary!
+variable var31 is not necessary!
+variable var32 is not necessary!
+variable var33 is not necessary!
+variable var34 is not necessary!
+variable var35 is not necessary!
+variable var36 is not necessary!
+variable var37 is not necessary!
+variable var38 is not necessary!
+variable var39 is not necessary!
+variable var41 is not necessary!
+variable var42 is not necessary!
+variable var43 is not necessary!
+variable var44 is not necessary!
+variable var45 is not necessary!
+variable var46 is not necessary!
+variable var47 is not necessary!
+variable var48 is not necessary!
+variable var49 is not necessary!
+variable var51 is not necessary!
+variable var52 is not necessary!
+variable var53 is not necessary!
+variable var54 is not necessary!
+variable var55 is not necessary!
+variable var56 is not necessary!
+variable var57 is not necessary!
+variable var58 is not necessary!
+variable var59 is not necessary!
+variable var61 is not necessary!
+variable var62 is not necessary!
+variable var63 is not necessary!
+variable var64 is not necessary!
+variable var65 is not necessary!
+variable var66 is not necessary!
+variable var67 is not necessary!
+variable var68 is not necessary!
+variable var69 is not necessary!
+variable var71 is not necessary!
+variable var72 is not necessary!
+variable var73 is not necessary!
+variable var74 is not necessary!
+variable var75 is not necessary!
+variable var76 is not necessary!
+variable var77 is not necessary!
+variable var78 is not necessary!
+variable var79 is not necessary!
+variable var81 is not necessary!
+variable var82 is not necessary!
+variable var83 is not necessary!
+variable var84 is not necessary!
+variable var85 is not necessary!
+variable var86 is not necessary!
+variable var87 is not necessary!
+variable var88 is not necessary!
+variable var89 is not necessary!
+variable var99 is not necessary!
+variable var100 is not necessary!
+variable var101 is not necessary!
+variable var102 is not necessary!
+variable var103 is not necessary!
+variable var104 is not necessary!
+variable var105 is not necessary!
+variable var106 is not necessary!
+variable var107 is not necessary!
+variable var108 is not necessary!
+variable var109 is not necessary!
+variable var110 is not necessary!
+variable var111 is not necessary!
+variable var112 is not necessary!
+variable var113 is not necessary!
+variable var114 is not necessary!
+variable var115 is not necessary!
+variable var116 is not necessary!
+variable var117 is not necessary!
+variable var118 is not necessary!
+variable var119 is not necessary!
+variable var120 is not necessary!
+variable var121 is not necessary!
+variable var122 is not necessary!
+variable var123 is not necessary!
+variable var124 is not necessary!
+variable var125 is not necessary!
+variable var126 is not necessary!
+variable var127 is not necessary!
+variable var128 is not necessary!
+variable var129 is not necessary!
+variable var130 is not necessary!
+variable var131 is not necessary!
+variable var132 is not necessary!
+variable var133 is not necessary!
+variable var134 is not necessary!
+variable var135 is not necessary!
+variable var136 is not necessary!
+variable var137 is not necessary!
+variable var138 is not necessary!
+variable var139 is not necessary!
+variable var140 is not necessary!
+variable var141 is not necessary!
+variable var142 is not necessary!
+variable var143 is not necessary!
+variable var144 is not necessary!
+variable var145 is not necessary!
+variable var146 is not necessary!
+variable var147 is not necessary!
+variable var171 is not necessary!
+variable var174 is not necessary!
+variable var175 is not necessary!
+variable var176 is not necessary!
+variable var177 is not necessary!
+variable var178 is not necessary!
+variable var179 is not necessary!
+variable var180 is not necessary!
+variable var181 is not necessary!
+variable var183 is not necessary!
+variable var184 is not necessary!
+variable var185 is not necessary!
+variable var186 is not necessary!
+variable var187 is not necessary!
+variable var200 is not necessary!
+variable var202 is not necessary!
+variable var215 is not necessary!
+variable var217 is not necessary!
+variable var230 is not necessary!
+variable var232 is not necessary!
+variable var245 is not necessary!
+variable var247 is not necessary!
+variable var260 is not necessary!
+variable var262 is not necessary!
+variable var275 is not necessary!
+variable var277 is not necessary!
+variable var290 is not necessary!
+variable var292 is not necessary!
+variable var305 is not necessary!
+variable var307 is not necessary!
+variable var320 is not necessary!
+variable var333 is not necessary!
+variable var334 is not necessary!
+variable var335 is not necessary!
+variable var336 is not necessary!
+variable var337 is not necessary!
+variable var338 is not necessary!
+variable var339 is not necessary!
+variable var340 is not necessary!
+variable var341 is not necessary!
+variable var342 is not necessary!
+variable var343 is not necessary!
+variable var344 is not necessary!
+variable var345 is not necessary!
+variable var346 is not necessary!
+variable var347 is not necessary!
+variable var348 is not necessary!
+variable var349 is not necessary!
+variable var350 is not necessary!
+variable var351 is not necessary!
+variable var352 is not necessary!
+variable var353 is not necessary!
+variable var354 is not necessary!
+variable var355 is not necessary!
+variable var356 is not necessary!
+variable var357 is not necessary!
+variable var358 is not necessary!
+variable var359 is not necessary!
+variable var360 is not necessary!
+variable var361 is not necessary!
+variable var362 is not necessary!
+variable var363 is not necessary!
+variable var364 is not necessary!
+variable var365 is not necessary!
+variable var366 is not necessary!
+variable var367 is not necessary!
+variable var368 is not necessary!
+variable var369 is not necessary!
+variable var370 is not necessary!
+variable var371 is not necessary!
+variable var372 is not necessary!
+variable var373 is not necessary!
+variable var374 is not necessary!
+variable var375 is not necessary!
+variable var376 is not necessary!
+variable var377 is not necessary!
+variable var378 is not necessary!
+variable var379 is not necessary!
+variable var380 is not necessary!
+variable var381 is not necessary!
+variable var382 is not necessary!
+variable var383 is not necessary!
+variable var384 is not necessary!
+variable var385 is not necessary!
+variable var386 is not necessary!
+variable var387 is not necessary!
+variable var388 is not necessary!
+variable var389 is not necessary!
+variable var390 is not necessary!
+variable var391 is not necessary!
+variable var392 is not necessary!
+variable var393 is not necessary!
+variable var394 is not necessary!
+variable var395 is not necessary!
+variable var396 is not necessary!
+variable var397 is not necessary!
+variable var398 is not necessary!
+variable var399 is not necessary!
+variable var400 is not necessary!
+variable var401 is not necessary!
+variable var402 is not necessary!
+variable var403 is not necessary!
+variable var404 is not necessary!
+variable var405 is not necessary!
+variable var406 is not necessary!
+variable var407 is not necessary!
+variable var408 is not necessary!
+variable var409 is not necessary!
+variable var410 is not necessary!
+variable var411 is not necessary!
+variable var412 is not necessary!
+variable var413 is not necessary!
+variable var414 is not necessary!
+variable var415 is not necessary!
+variable var416 is not necessary!
+variable var417 is not necessary!
+variable var418 is not necessary!
+variable var419 is not necessary!
+variable var420 is not necessary!
+variable var421 is not necessary!
+variable var422 is not necessary!
+variable var423 is not necessary!
+variable var424 is not necessary!
+variable var425 is not necessary!
+variable var426 is not necessary!
+variable var427 is not necessary!
+variable var428 is not necessary!
+variable var429 is not necessary!
+variable var430 is not necessary!
+variable var431 is not necessary!
+variable var432 is not necessary!
+variable var433 is not necessary!
+variable var435 is not necessary!
+variable var436 is not necessary!
+variable var437 is not necessary!
+variable var438 is not necessary!
+variable var439 is not necessary!
+variable var440 is not necessary!
+variable var441 is not necessary!
+variable var442 is not necessary!
+variable var443 is not necessary!
+variable var445 is not necessary!
+variable var446 is not necessary!
+variable var447 is not necessary!
+variable var448 is not necessary!
+variable var449 is not necessary!
+variable var450 is not necessary!
+variable var451 is not necessary!
+variable var452 is not necessary!
+variable var453 is not necessary!
+variable var455 is not necessary!
+variable var456 is not necessary!
+variable var457 is not necessary!
+variable var458 is not necessary!
+variable var459 is not necessary!
+variable var460 is not necessary!
+variable var461 is not necessary!
+variable var462 is not necessary!
+variable var463 is not necessary!
+variable var465 is not necessary!
+variable var466 is not necessary!
+variable var467 is not necessary!
+variable var468 is not necessary!
+variable var469 is not necessary!
+variable var470 is not necessary!
+variable var471 is not necessary!
+variable var472 is not necessary!
+variable var473 is not necessary!
+variable var475 is not necessary!
+variable var476 is not necessary!
+variable var477 is not necessary!
+variable var478 is not necessary!
+variable var479 is not necessary!
+variable var480 is not necessary!
+variable var481 is not necessary!
+variable var482 is not necessary!
+variable var483 is not necessary!
+variable var485 is not necessary!
+variable var486 is not necessary!
+variable var487 is not necessary!
+variable var488 is not necessary!
+variable var489 is not necessary!
+variable var490 is not necessary!
+variable var491 is not necessary!
+variable var492 is not necessary!
+variable var493 is not necessary!
+variable var495 is not necessary!
+variable var496 is not necessary!
+variable var497 is not necessary!
+variable var498 is not necessary!
+variable var499 is not necessary!
+variable var500 is not necessary!
+variable var501 is not necessary!
+variable var502 is not necessary!
+variable var503 is not necessary!
+variable var505 is not necessary!
+variable var506 is not necessary!
+variable var507 is not necessary!
+variable var508 is not necessary!
+variable var509 is not necessary!
+variable var510 is not necessary!
+variable var511 is not necessary!
+variable var512 is not necessary!
+variable var513 is not necessary!
+variable var516 is not necessary!
+variable var529 is not necessary!
+variable var554 is not necessary!
+variable var555 is not necessary!
+variable var556 is not necessary!
+variable var557 is not necessary!
+variable var558 is not necessary!
+variable var559 is not necessary!
+variable var560 is not necessary!
+variable var561 is not necessary!
+variable var562 is not necessary!
+variable var563 is not necessary!
+variable var705 is not necessary!
+variable var706 is not necessary!
+variable var707 is not necessary!
+variable var708 is not necessary!
+variable var710 is not necessary!
+variable var711 is not necessary!
+variable var712 is not necessary!
+variable var713 is not necessary!
+variable var714 is not necessary!
+variable var715 is not necessary!
+variable var716 is not necessary!
+variable var717 is not necessary!
+variable var718 is not necessary!
+variable var719 is not necessary!
+variable var720 is not necessary!
+variable var721 is not necessary!
+variable var722 is not necessary!
+variable var723 is not necessary!
+variable var724 is not necessary!
+variable var725 is not necessary!
+variable var726 is not necessary!
+variable var727 is not necessary!
+variable var728 is not necessary!
+variable var729 is not necessary!
+variable var730 is not necessary!
+variable var731 is not necessary!
+variable var732 is not necessary!
+variable var733 is not necessary!
+variable var734 is not necessary!
+variable var735 is not necessary!
+variable var736 is not necessary!
+variable var737 is not necessary!
+variable var738 is not necessary!
+variable var739 is not necessary!
+variable var740 is not necessary!
+variable var741 is not necessary!
+variable var742 is not necessary!
+variable var743 is not necessary!
+variable var744 is not necessary!
+variable var745 is not necessary!
+variable var746 is not necessary!
+variable var747 is not necessary!
+variable var748 is not necessary!
+variable var749 is not necessary!
+variable var750 is not necessary!
+variable var751 is not necessary!
+variable var752 is not necessary!
+variable var753 is not necessary!
+variable var754 is not necessary!
+variable var755 is not necessary!
+variable var756 is not necessary!
+variable var757 is not necessary!
+variable var758 is not necessary!
+variable var759 is not necessary!
+variable var760 is not necessary!
+variable var761 is not necessary!
+variable var762 is not necessary!
+variable var763 is not necessary!
+variable var764 is not necessary!
+variable var765 is not necessary!
+variable var766 is not necessary!
+variable var767 is not necessary!
+variable var768 is not necessary!
+variable var769 is not necessary!
+variable var770 is not necessary!
+variable var771 is not necessary!
+variable var772 is not necessary!
+variable var774 is not necessary!
+variable var775 is not necessary!
+variable var776 is not necessary!
+variable var777 is not necessary!
+variable var778 is not necessary!
+variable var779 is not necessary!
+variable var780 is not necessary!
+variable var782 is not necessary!
+variable var783 is not necessary!
+variable var784 is not necessary!
+variable var785 is not necessary!
+variable var786 is not necessary!
+376 variables of 793 necessary
+594 of 594 operators necessary.
+800 of 800 Axiom_relational rules necessary.
+299 of 470 Axiom_functional rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+all_operator_indices.size(): 594
+Writing output...
+printing SG 
+376
+done
+
+
+Planner Paramters:
+Anytime Search: Enabled
+Timeout if plan was found: 300 seconds
+Timeout while no plan was found: 300 seconds
+Greedy Search: Disabled
+Verbose: Enabled
+Lazy Heuristic Evaluation: Enabled
+Don't use caching in heuristic.
+Cyclic CG heuristic: Enabled 	Preferred Operators: Disabled
+Makespan heuristic: Disabled 	Preferred Operators: Disabled
+No Heuristic: Disabled
+Cg Heuristic Zero Cost Waiting Transitions: Enabled
+Cg Heuristic Fire Waiting Transitions Only If Local Problems Matches State: Disabled
+PrefOpsOrderedMode: Enabled with 9 goals
+PrefOpsCheapestMode: Disabled with 1000 goals
+PrefOpsMostExpensiveMode: Disabled with 1000 goals
+PrefOpsRandMode: Disabled with 1000 goals
+PrefOpsConcurrentMode: Disabled
+Reset after solution was found: Disabled
+Reward only preferred operators queue: Disabled
+GValues by: Timestamp
+Queue management mode: Priority based
+Known by logical state only filtering: Disabled
+use_subgoals_to_break_makespan_ties: Disabled
+Reschedule plans: Disabled
+Epsilonize internally: Disabled
+Epsilonize externally: Disabled
+Keep original plans: Enabled
+Plan name: "/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt"
+Plan monitor file: "" (no monitoring)
+Monitoring verify timestamps: Disabled
+
+Contains universal conditions: 1
+INIT
+Open list sizes (priorities): 0 (0),  0 (0), 
+Initializing cyclic causal graph heuristic...done.
+Best heuristic values of queues: 1659/-1 [expanded 1 state(s)]
+Best heuristic values of queues: 1367.99/-1 [expanded 2 state(s)]
+Best heuristic values of queues: 1317/-1 [expanded 3 state(s)]
+Best heuristic values of queues: 1142.99/-1 [expanded 4 state(s)]
+Best heuristic values of queues: 1103.99/-1 [expanded 10 state(s)]
+Best heuristic values of queues: 1055.99/-1 [expanded 12 state(s)]
+Best heuristic values of queues: 1031.99/-1 [expanded 16 state(s)]
+Best heuristic values of queues: 971.99/-1 [expanded 23 state(s)]
+Best heuristic values of queues: 941.99/-1 [expanded 38 state(s)]
+Best heuristic values of queues: 926.99/-1 [expanded 48 state(s)]
+Best heuristic values of queues: 830.99/-1 [expanded 50 state(s)]
+Best heuristic values of queues: 752.99/-1 [expanded 59 state(s)]
+Best heuristic values of queues: 734.99/-1 [expanded 71 state(s)]
+Best heuristic values of queues: 692.99/-1 [expanded 77 state(s)]
+Best heuristic values of queues: 683.99/-1 [expanded 78 state(s)]
+Best heuristic values of queues: 605.99/-1 [expanded 79 state(s)]
+Best heuristic values of queues: 596.99/-1 [expanded 83 state(s)]
+Best heuristic values of queues: 521.99/-1 [expanded 84 state(s)]
+Best heuristic values of queues: 513/-1 [expanded 91 state(s)]
+Best heuristic values of queues: 497.99/-1 [expanded 104 state(s)]
+Best heuristic values of queues: 477/-1 [expanded 111 state(s)]
+Best heuristic values of queues: 459/-1 [expanded 134 state(s)]
+Best heuristic values of queues: 416.99/-1 [expanded 269 state(s)]
+Best heuristic values of queues: 387/-1 [expanded 277 state(s)]
+Best heuristic values of queues: 384/-1 [expanded 329 state(s)]
+Best heuristic values of queues: 353.99/-1 [expanded 334 state(s)]
+Best heuristic values of queues: 327/-1 [expanded 340 state(s)]
+Best heuristic values of queues: 315/-1 [expanded 367 state(s)]
+Best heuristic values of queues: 287.99/-1 [expanded 369 state(s)]
+Best heuristic values of queues: 255/-1 [expanded 374 state(s)]
+Best heuristic values of queues: 249/-1 [expanded 384 state(s)]
+Best heuristic values of queues: 237/-1 [expanded 395 state(s)]
+Best heuristic values of queues: 206.99/-1 [expanded 399 state(s)]
+Best heuristic values of queues: 201/-1 [expanded 403 state(s)]
+Best heuristic values of queues: 194.99/-1 [expanded 407 state(s)]
+Best heuristic values of queues: 189/-1 [expanded 416 state(s)]
+Best heuristic values of queues: 177/-1 [expanded 426 state(s)]
+Best heuristic values of queues: 129/-1 [expanded 438 state(s)]
+Best heuristic values of queues: 111/-1 [expanded 442 state(s)]
+Best heuristic values of queues: 107.99/-1 [expanded 462 state(s)]
+Best heuristic values of queues: 104.99/-1 [expanded 468 state(s)]
+Best heuristic values of queues: 87/-1 [expanded 469 state(s)]
+Best heuristic values of queues: 86.99/-1 [expanded 481 state(s)]
+Best heuristic values of queues: 81/-1 [expanded 482 state(s)]
+Best heuristic values of queues: 72/-1 [expanded 486 state(s)]
+Best heuristic values of queues: 66/-1 [expanded 513 state(s)]
+Best heuristic values of queues: 35.99/-1 [expanded 517 state(s)]
+Best heuristic values of queues: 12/-1 [expanded 518 state(s)]
+Best heuristic values of queues: 3.89/-1 [expanded 519 state(s)]
+Best heuristic values of queues: 0/-1 [expanded 520 state(s)]
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_59) [3.00000000]
+282.00000000: (move_bside train_slt47 track_58 track_60) [3.00000000]
+285.00000000: (move_aside train_slt41 track_51b track_59) [3.00000000]
+288.00000000: (move_aside train_slt47 track_60 track_59) [3.00000000]
+291.00000000: (move_bside train_slt48 track_61_service track_63) [3.00000000]
+294.00000000: (move_bside train_slt42 track_57 track_51b) [3.00000000]
+297.00000000: (move_aside train_slt42 track_51b track_55) [3.00000000]
+300.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+303.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+333.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 336 found (ignoring no-moving-targets-rule).
+Plan length: 48 step(s).
+Makespan   : 336
+Makespan   : 336
+INIT
+Open list sizes (priorities): 495 (-49412),  2325 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_59) [3.00000000]
+282.00000000: (move_bside train_slt47 track_58 track_60) [3.00000000]
+285.00000000: (move_aside train_slt41 track_51b track_59) [3.00000000]
+288.00000000: (move_aside train_slt47 track_60 track_59) [3.00000000]
+291.00000000: (move_bside train_slt48 track_61_service track_63) [3.00000000]
+294.00000000: (move_bside train_slt42 track_57 track_51b) [3.00000000]
+297.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+300.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+300.00000000: (move_aside train_slt42 track_51b track_55) [3.00000000]
+330.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 333 found (ignoring no-moving-targets-rule).
+Plan length: 48 step(s).
+Makespan   : 333
+Makespan   : 333
+INIT
+Open list sizes (priorities): 498 (-49393),  2419 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_59) [3.00000000]
+282.00000000: (move_bside train_slt47 track_58 track_60) [3.00000000]
+285.00000000: (move_aside train_slt48 track_61_service track_59) [3.00000000]
+288.00000000: (move_aside train_slt47 track_60 track_58) [3.00000000]
+291.00000000: (move_bside train_slt42 track_57 track_60) [3.00000000]
+294.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+297.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+297.00000000: (move_aside train_slt41 track_51b track_54) [3.00000000]
+327.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 330 found (ignoring no-moving-targets-rule).
+Plan length: 47 step(s).
+Makespan   : 330
+Makespan   : 330
+INIT
+Open list sizes (priorities): 501 (-49291),  2956 (0), 
+
+Search Time: 10 sec.
+Expanded Nodes: 666 state(s).
+Rate: 66.6 Nodes/s (over 10.0s) 66.6 Nodes/s (total average)
+Generated Nodes: 4788 state(s).
+Rate: 478.8 Nodes/s (over 10.0s) 478.8 Nodes/s (total average)
+Overall branching factor by list sizes: 7.18919
+Averaged overall branching factor: Mean 7.27 Std: 9.41 (Num: 659)
+Branching factors by open list:
+Open List 0: Mean 1.99 Std: 2.20 (Num: 659)
+Open List 1: Mean 5.27 Std: 7.63 (Num: 659)
+OpenList sizes: 513 3474
+Heuristic Computations (per heuristic): 799 Total: 799
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_56) [3.00000000]
+282.00000000: (move_bside train_slt42 track_57 track_60) [3.00000000]
+285.00000000: (move_aside train_slt41 track_51b track_52) [3.00000000]
+288.00000000: (move_aside train_slt48 track_61_service track_59) [3.00000000]
+291.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+294.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+324.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 327 found (ignoring no-moving-targets-rule).
+Plan length: 45 step(s).
+Makespan   : 327
+Makespan   : 327
+INIT
+Open list sizes (priorities): 522 (-49076),  4143 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_56) [3.00000000]
+282.00000000: (move_bside train_slt42 track_57 track_60) [3.00000000]
+285.00000000: (move_aside train_slt41 track_51b track_52) [3.00000000]
+288.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+291.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+291.00000000: (move_aside train_slt48 track_61_service track_56) [3.00000000]
+294.00000000: (move_aside train_slt42 track_60 track_52) [3.00000000]
+321.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 324 found (ignoring no-moving-targets-rule).
+Plan length: 46 step(s).
+Makespan   : 324
+Makespan   : 324
+INIT
+Open list sizes (priorities): 523 (-49043),  4283 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_56) [3.00000000]
+282.00000000: (move_bside train_slt42 track_57 track_60) [3.00000000]
+285.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+288.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+288.00000000: (move_aside train_slt48 track_61_service track_57) [3.00000000]
+291.00000000: (move_aside train_slt41 track_51b track_55) [3.00000000]
+318.00000000: (move_aside train_slt44 track_62_service track_57) [3.00000000]
+Solution with original makespan 321 found (ignoring no-moving-targets-rule).
+Plan length: 45 step(s).
+Makespan   : 321
+Makespan   : 321
+INIT
+Open list sizes (priorities): 531 (-49004),  4538 (0), 
+
+Search Time: 20 sec.
+Expanded Nodes: 1176 state(s).
+Rate: 51.0 Nodes/s (over 10.0s) 58.8 Nodes/s (total average)
+Generated Nodes: 9741 state(s).
+Rate: 495.3 Nodes/s (over 10.0s) 487.1 Nodes/s (total average)
+Overall branching factor by list sizes: 8.28316
+Averaged overall branching factor: Mean 8.35 Std: 10.17 (Num: 1166)
+Branching factors by open list:
+Open List 0: Mean 1.83 Std: 1.79 (Num: 1166)
+Open List 1: Mean 6.52 Std: 8.89 (Num: 1166)
+OpenList sizes: 536 7606
+Heuristic Computations (per heuristic): 1588 Total: 1588
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 30 sec.
+Expanded Nodes: 1707 state(s).
+Rate: 53.1 Nodes/s (over 10.0s) 56.9 Nodes/s (total average)
+Generated Nodes: 14775 state(s).
+Rate: 503.4 Nodes/s (over 10.0s) 492.5 Nodes/s (total average)
+Overall branching factor by list sizes: 8.65554
+Averaged overall branching factor: Mean 8.71 Std: 10.46 (Num: 1696)
+Branching factors by open list:
+Open List 0: Mean 1.77 Std: 1.60 (Num: 1696)
+Open List 1: Mean 6.95 Std: 9.33 (Num: 1696)
+OpenList sizes: 569 11779
+Heuristic Computations (per heuristic): 2416 Total: 2416
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 40 sec.
+Expanded Nodes: 2218 state(s).
+Rate: 51.1 Nodes/s (over 10.0s) 55.5 Nodes/s (total average)
+Generated Nodes: 19275 state(s).
+Rate: 450.0 Nodes/s (over 10.0s) 481.9 Nodes/s (total average)
+Overall branching factor by list sizes: 8.69026
+Averaged overall branching factor: Mean 8.74 Std: 10.31 (Num: 2205)
+Branching factors by open list:
+Open List 0: Mean 1.73 Std: 1.49 (Num: 2205)
+Open List 1: Mean 7.01 Std: 9.25 (Num: 2205)
+OpenList sizes: 610 15455
+Heuristic Computations (per heuristic): 3198 Total: 3198
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 50 sec.
+Expanded Nodes: 2785 state(s).
+Rate: 56.7 Nodes/s (over 10.0s) 55.7 Nodes/s (total average)
+Generated Nodes: 24887 state(s).
+Rate: 561.2 Nodes/s (over 10.0s) 497.7 Nodes/s (total average)
+Overall branching factor by list sizes: 8.93609
+Averaged overall branching factor: Mean 8.98 Std: 10.45 (Num: 2772)
+Branching factors by open list:
+Open List 0: Mean 1.70 Std: 1.40 (Num: 2772)
+Open List 1: Mean 7.28 Std: 9.45 (Num: 2772)
+OpenList sizes: 655 20171
+Heuristic Computations (per heuristic): 4046 Total: 4046
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 60 sec.
+Expanded Nodes: 3303 state(s).
+Rate: 51.8 Nodes/s (over 10.0s) 55.0 Nodes/s (total average)
+Generated Nodes: 30331 state(s).
+Rate: 544.4 Nodes/s (over 10.0s) 505.5 Nodes/s (total average)
+Overall branching factor by list sizes: 9.18286
+Averaged overall branching factor: Mean 9.22 Std: 10.65 (Num: 3290)
+Branching factors by open list:
+Open List 0: Mean 1.70 Std: 1.35 (Num: 3290)
+Open List 1: Mean 7.52 Std: 9.69 (Num: 3290)
+OpenList sizes: 741 24750
+Heuristic Computations (per heuristic): 4825 Total: 4825
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 70 sec.
+Expanded Nodes: 3778 state(s).
+Rate: 47.5 Nodes/s (over 10.0s) 54.0 Nodes/s (total average)
+Generated Nodes: 34861 state(s).
+Rate: 453.0 Nodes/s (over 10.0s) 498.0 Nodes/s (total average)
+Overall branching factor by list sizes: 9.22737
+Averaged overall branching factor: Mean 9.26 Std: 10.65 (Num: 3764)
+Branching factors by open list:
+Open List 0: Mean 1.69 Std: 1.32 (Num: 3764)
+Open List 1: Mean 7.57 Std: 9.70 (Num: 3764)
+OpenList sizes: 795 28497
+Heuristic Computations (per heuristic): 5554 Total: 5554
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 80 sec.
+Expanded Nodes: 4222 state(s).
+Rate: 44.4 Nodes/s (over 10.0s) 52.8 Nodes/s (total average)
+Generated Nodes: 38744 state(s).
+Rate: 388.3 Nodes/s (over 10.0s) 484.3 Nodes/s (total average)
+Overall branching factor by list sizes: 9.17669
+Averaged overall branching factor: Mean 9.21 Std: 10.61 (Num: 4208)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.30 (Num: 4208)
+Open List 1: Mean 7.52 Std: 9.67 (Num: 4208)
+OpenList sizes: 807 31662
+Heuristic Computations (per heuristic): 6259 Total: 6259
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 90 sec.
+Expanded Nodes: 4612 state(s).
+Rate: 39.0 Nodes/s (over 10.0s) 51.2 Nodes/s (total average)
+Generated Nodes: 41560 state(s).
+Rate: 281.6 Nodes/s (over 10.0s) 461.8 Nodes/s (total average)
+Overall branching factor by list sizes: 9.01127
+Averaged overall branching factor: Mean 9.04 Std: 10.52 (Num: 4598)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.29 (Num: 4598)
+Open List 1: Mean 7.36 Std: 9.57 (Num: 4598)
+OpenList sizes: 828 33837
+Heuristic Computations (per heuristic): 6879 Total: 6879
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 100 sec.
+Expanded Nodes: 5045 state(s).
+Rate: 43.3 Nodes/s (over 10.0s) 50.5 Nodes/s (total average)
+Generated Nodes: 45358 state(s).
+Rate: 379.8 Nodes/s (over 10.0s) 453.6 Nodes/s (total average)
+Overall branching factor by list sizes: 8.99068
+Averaged overall branching factor: Mean 9.02 Std: 10.56 (Num: 5029)
+Branching factors by open list:
+Open List 0: Mean 1.68 Std: 1.28 (Num: 5029)
+Open List 1: Mean 7.34 Std: 9.61 (Num: 5029)
+OpenList sizes: 873 36933
+Heuristic Computations (per heuristic): 7536 Total: 7536
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 110 sec.
+Expanded Nodes: 5467 state(s).
+Rate: 42.2 Nodes/s (over 10.0s) 49.7 Nodes/s (total average)
+Generated Nodes: 49199 state(s).
+Rate: 384.1 Nodes/s (over 10.0s) 447.3 Nodes/s (total average)
+Overall branching factor by list sizes: 8.99927
+Averaged overall branching factor: Mean 9.03 Std: 10.55 (Num: 5450)
+Branching factors by open list:
+Open List 0: Mean 1.67 Std: 1.26 (Num: 5450)
+Open List 1: Mean 7.35 Std: 9.61 (Num: 5450)
+OpenList sizes: 934 40082
+Heuristic Computations (per heuristic): 8167 Total: 8167
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 120 sec.
+Expanded Nodes: 5885 state(s).
+Rate: 41.8 Nodes/s (over 10.0s) 49.0 Nodes/s (total average)
+Generated Nodes: 53277 state(s).
+Rate: 407.8 Nodes/s (over 10.0s) 444.0 Nodes/s (total average)
+Overall branching factor by list sizes: 9.05302
+Averaged overall branching factor: Mean 9.08 Std: 10.58 (Num: 5865)
+Branching factors by open list:
+Open List 0: Mean 1.67 Std: 1.25 (Num: 5865)
+Open List 1: Mean 7.41 Std: 9.64 (Num: 5865)
+OpenList sizes: 981 43475
+Heuristic Computations (per heuristic): 8805 Total: 8805
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 130 sec.
+Expanded Nodes: 6336 state(s).
+Rate: 45.1 Nodes/s (over 10.0s) 48.7 Nodes/s (total average)
+Generated Nodes: 57230 state(s).
+Rate: 395.3 Nodes/s (over 10.0s) 440.2 Nodes/s (total average)
+Overall branching factor by list sizes: 9.03251
+Averaged overall branching factor: Mean 9.06 Std: 10.55 (Num: 6315)
+Branching factors by open list:
+Open List 0: Mean 1.67 Std: 1.24 (Num: 6315)
+Open List 1: Mean 7.39 Std: 9.61 (Num: 6315)
+OpenList sizes: 1040 46696
+Heuristic Computations (per heuristic): 9478 Total: 9478
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 140 sec.
+Expanded Nodes: 6787 state(s).
+Rate: 45.1 Nodes/s (over 10.0s) 48.5 Nodes/s (total average)
+Generated Nodes: 60972 state(s).
+Rate: 374.2 Nodes/s (over 10.0s) 435.5 Nodes/s (total average)
+Overall branching factor by list sizes: 8.98365
+Averaged overall branching factor: Mean 9.02 Std: 10.52 (Num: 6762)
+Branching factors by open list:
+Open List 0: Mean 1.67 Std: 1.23 (Num: 6762)
+Open List 1: Mean 7.35 Std: 9.58 (Num: 6762)
+OpenList sizes: 1132 49691
+Heuristic Computations (per heuristic): 10133 Total: 10133
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 150 sec.
+Expanded Nodes: 7223 state(s).
+Rate: 43.6 Nodes/s (over 10.0s) 48.2 Nodes/s (total average)
+Generated Nodes: 63967 state(s).
+Rate: 299.5 Nodes/s (over 10.0s) 426.4 Nodes/s (total average)
+Overall branching factor by list sizes: 8.85602
+Averaged overall branching factor: Mean 8.89 Std: 10.48 (Num: 7197)
+Branching factors by open list:
+Open List 0: Mean 1.67 Std: 1.24 (Num: 7197)
+Open List 1: Mean 7.22 Std: 9.52 (Num: 7197)
+OpenList sizes: 1172 51979
+Heuristic Computations (per heuristic): 10800 Total: 10800
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 160 sec.
+Expanded Nodes: 7669 state(s).
+Rate: 44.6 Nodes/s (over 10.0s) 47.9 Nodes/s (total average)
+Generated Nodes: 67660 state(s).
+Rate: 369.3 Nodes/s (over 10.0s) 422.9 Nodes/s (total average)
+Overall branching factor by list sizes: 8.82253
+Averaged overall branching factor: Mean 8.86 Std: 10.46 (Num: 7640)
+Branching factors by open list:
+Open List 0: Mean 1.66 Std: 1.24 (Num: 7640)
+Open List 1: Mean 7.19 Std: 9.51 (Num: 7640)
+OpenList sizes: 1201 54950
+Heuristic Computations (per heuristic): 11493 Total: 11493
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 170 sec.
+Expanded Nodes: 8103 state(s).
+Rate: 43.4 Nodes/s (over 10.0s) 47.7 Nodes/s (total average)
+Generated Nodes: 71243 state(s).
+Rate: 358.3 Nodes/s (over 10.0s) 419.1 Nodes/s (total average)
+Overall branching factor by list sizes: 8.79218
+Averaged overall branching factor: Mean 8.82 Std: 10.40 (Num: 8074)
+Branching factors by open list:
+Open List 0: Mean 1.66 Std: 1.23 (Num: 8074)
+Open List 1: Mean 7.16 Std: 9.45 (Num: 8074)
+OpenList sizes: 1217 57829
+Heuristic Computations (per heuristic): 12181 Total: 12181
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 180 sec.
+Expanded Nodes: 8579 state(s).
+Rate: 47.6 Nodes/s (over 10.0s) 47.7 Nodes/s (total average)
+Generated Nodes: 74813 state(s).
+Rate: 357.0 Nodes/s (over 10.0s) 415.6 Nodes/s (total average)
+Overall branching factor by list sizes: 8.72048
+Averaged overall branching factor: Mean 8.75 Std: 10.37 (Num: 8550)
+Branching factors by open list:
+Open List 0: Mean 1.66 Std: 1.22 (Num: 8550)
+Open List 1: Mean 7.09 Std: 9.42 (Num: 8550)
+OpenList sizes: 1245 60641
+Heuristic Computations (per heuristic): 12911 Total: 12911
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+
+Search Time: 190 sec.
+Expanded Nodes: 9026 state(s).
+Rate: 44.7 Nodes/s (over 10.0s) 47.5 Nodes/s (total average)
+Generated Nodes: 78608 state(s).
+Rate: 379.5 Nodes/s (over 10.0s) 413.7 Nodes/s (total average)
+Overall branching factor by list sizes: 8.70906
+Averaged overall branching factor: Mean 8.74 Std: 10.36 (Num: 8997)
+Branching factors by open list:
+Open List 0: Mean 1.66 Std: 1.22 (Num: 8997)
+Open List 1: Mean 7.08 Std: 9.41 (Num: 8997)
+OpenList sizes: 1282 63705
+Heuristic Computations (per heuristic): 13605 Total: 13605
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_59) [3.00000000]
+3.00000000: (move_bside train_slt40 track_59 track_61_service) [3.00000000]
+6.00000000: (service_train train_slt40 track_61_service) [30.00000000]
+36.00000000: (move_bside train_slt40 track_61_service track_63) [3.00000000]
+39.00000000: (move_bside train_slt41 track_entry track_52) [3.00000000]
+42.00000000: (move_bside train_slt41 track_52 track_60) [3.00000000]
+45.00000000: (move_bside train_slt42 track_entry track_58) [3.00000000]
+48.00000000: (move_bside train_slt43 track_entry track_56) [3.00000000]
+51.00000000: (move_bside train_slt44 track_entry track_57) [3.00000000]
+54.00000000: (move_bside train_slt42 track_58 track_61_service) [3.00000000]
+57.00000000: (move_bside train_slt45 track_entry track_58) [3.00000000]
+57.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+60.00000000: (move_bside train_slt46 track_entry track_59) [3.00000000]
+63.00000000: (move_bside train_slt47 track_entry track_56) [3.00000000]
+66.00000000: (move_bside train_slt48 track_entry track_52) [3.00000000]
+87.00000000: (move_bside train_slt48 track_52 track_60) [3.00000000]
+90.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+93.00000000: (move_aside train_slt42 track_61_service track_57) [3.00000000]
+96.00000000: (move_bside train_slt43 track_56 track_61_service) [3.00000000]
+99.00000000: (service_train train_slt43 track_61_service) [30.00000000]
+129.00000000: (move_aside train_slt41 track_63 track_60) [3.00000000]
+132.00000000: (move_bside train_slt43 track_61_service track_63) [3.00000000]
+135.00000000: (move_bside train_slt41 track_60 track_63) [3.00000000]
+138.00000000: (move_bside train_slt45 track_58 track_61_service) [3.00000000]
+141.00000000: (service_train train_slt45 track_61_service) [30.00000000]
+171.00000000: (move_aside train_slt45 track_61_service track_58) [3.00000000]
+174.00000000: (move_aside train_slt41 track_63 track_62_service) [3.00000000]
+177.00000000: (service_train train_slt41 track_62_service) [30.00000000]
+177.00000000: (move_bside train_slt48 track_60 track_63) [3.00000000]
+207.00000000: (move_aside train_slt41 track_62_service track_58) [3.00000000]
+210.00000000: (move_bside train_slt47 track_56 track_62_service) [3.00000000]
+213.00000000: (service_train train_slt47 track_62_service) [30.00000000]
+213.00000000: (move_bside train_slt41 track_58 track_51b) [3.00000000]
+243.00000000: (move_aside train_slt47 track_62_service track_58) [3.00000000]
+246.00000000: (move_bside train_slt46 track_59 track_62_service) [3.00000000]
+249.00000000: (service_train train_slt46 track_62_service) [30.00000000]
+249.00000000: (move_aside train_slt48 track_63 track_61_service) [3.00000000]
+252.00000000: (service_train train_slt48 track_61_service) [30.00000000]
+252.00000000: (move_aside train_slt41 track_51b track_52) [3.00000000]
+255.00000000: (move_bside train_slt47 track_58 track_51b) [3.00000000]
+258.00000000: (move_aside train_slt47 track_51b track_52) [3.00000000]
+261.00000000: (move_bside train_slt42 track_57 track_51b) [3.00000000]
+279.00000000: (move_aside train_slt46 track_62_service track_56) [3.00000000]
+282.00000000: (move_bside train_slt44 track_57 track_62_service) [3.00000000]
+285.00000000: (move_aside train_slt48 track_61_service track_58) [3.00000000]
+285.00000000: (service_train train_slt44 track_62_service) [30.00000000]
+288.00000000: (move_aside train_slt42 track_51b track_54) [3.00000000]
+315.00000000: (move_aside train_slt44 track_62_service track_56) [3.00000000]
+Solution with original makespan 318 found (ignoring no-moving-targets-rule).
+Plan length: 48 step(s).
+Makespan   : 318
+Makespan   : 318
+INIT
+Open list sizes (priorities): 1285 (-36273),  64159 (0), 

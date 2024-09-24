@@ -1,0 +1,234 @@
+Parsing...
+Contains quantified condition(s): True
+Instantiating...
+Duplicate arguments: Adding equality conditions.
+Trivial rules: Converted to facts.
+Starting instantiation [138 rules]...
+Finding invariants...
+Finding invariants... 7 initial candidates
+[0.000s CPU, 0.002s wall-clock]
+Checking invariant weight... [0.000s CPU, 0.000s wall-clock]
+Instantiating groups...
+Choosing groups...
+96 uncovered facts (before using the results from the invariant synthesis)
+51 uncovered facts
+Building translation key...
+Building STRIPS to SAS dictionary...
+Translating task...
+Processing axioms...
+Found 0 axioms that are always true and 0 that are always false
+constrained 390 conditions
+Writing output...
+Done!
+contains_quantified_conditions: 1
+Building causal graph...
+The causal graph is not acyclic.
+variable var3 is not necessary!
+variable var5 is not necessary!
+variable var6 is not necessary!
+variable var7 is not necessary!
+variable var9 is not necessary!
+variable var10 is not necessary!
+variable var11 is not necessary!
+variable var15 is not necessary!
+variable var16 is not necessary!
+variable var17 is not necessary!
+variable var18 is not necessary!
+variable var19 is not necessary!
+variable var20 is not necessary!
+variable var21 is not necessary!
+variable var22 is not necessary!
+variable var23 is not necessary!
+variable var24 is not necessary!
+variable var25 is not necessary!
+variable var26 is not necessary!
+variable var27 is not necessary!
+variable var28 is not necessary!
+variable var29 is not necessary!
+variable var30 is not necessary!
+variable var31 is not necessary!
+variable var32 is not necessary!
+variable var33 is not necessary!
+variable var34 is not necessary!
+variable var35 is not necessary!
+variable var36 is not necessary!
+variable var37 is not necessary!
+variable var38 is not necessary!
+variable var39 is not necessary!
+variable var40 is not necessary!
+variable var41 is not necessary!
+variable var42 is not necessary!
+variable var43 is not necessary!
+variable var44 is not necessary!
+variable var45 is not necessary!
+variable var46 is not necessary!
+variable var47 is not necessary!
+variable var48 is not necessary!
+variable var49 is not necessary!
+variable var50 is not necessary!
+variable var68 is not necessary!
+variable var70 is not necessary!
+variable var72 is not necessary!
+variable var85 is not necessary!
+variable var87 is not necessary!
+variable var100 is not necessary!
+variable var102 is not necessary!
+variable var115 is not necessary!
+variable var122 is not necessary!
+variable var123 is not necessary!
+variable var124 is not necessary!
+variable var125 is not necessary!
+variable var127 is not necessary!
+variable var128 is not necessary!
+variable var129 is not necessary!
+variable var131 is not necessary!
+variable var132 is not necessary!
+variable var133 is not necessary!
+variable var135 is not necessary!
+variable var148 is not necessary!
+variable var167 is not necessary!
+variable var168 is not necessary!
+variable var169 is not necessary!
+variable var170 is not necessary!
+variable var227 is not necessary!
+variable var228 is not necessary!
+variable var229 is not necessary!
+variable var232 is not necessary!
+variable var233 is not necessary!
+163 variables of 235 necessary
+198 of 198 operators necessary.
+200 of 200 Axiom_relational rules necessary.
+117 of 136 Axiom_functional rules necessary.
+Building domain transition graphs...
+solveable in poly time 0
+Building successor generator...
+all_operator_indices.size(): 198
+Writing output...
+printing SG 
+163
+done
+
+
+Planner Paramters:
+Anytime Search: Enabled
+Timeout if plan was found: 300 seconds
+Timeout while no plan was found: 300 seconds
+Greedy Search: Disabled
+Verbose: Enabled
+Lazy Heuristic Evaluation: Enabled
+Don't use caching in heuristic.
+Cyclic CG heuristic: Enabled 	Preferred Operators: Disabled
+Makespan heuristic: Disabled 	Preferred Operators: Disabled
+No Heuristic: Disabled
+Cg Heuristic Zero Cost Waiting Transitions: Enabled
+Cg Heuristic Fire Waiting Transitions Only If Local Problems Matches State: Disabled
+PrefOpsOrderedMode: Enabled with 3 goals
+PrefOpsCheapestMode: Disabled with 1000 goals
+PrefOpsMostExpensiveMode: Disabled with 1000 goals
+PrefOpsRandMode: Disabled with 1000 goals
+PrefOpsConcurrentMode: Disabled
+Reset after solution was found: Disabled
+Reward only preferred operators queue: Disabled
+GValues by: Timestamp
+Queue management mode: Priority based
+Known by logical state only filtering: Disabled
+use_subgoals_to_break_makespan_ties: Disabled
+Reschedule plans: Disabled
+Epsilonize internally: Disabled
+Epsilonize externally: Disabled
+Keep original plans: Enabled
+Plan name: "/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt"
+Plan monitor file: "" (no monitoring)
+Monitoring verify timestamps: Disabled
+
+Contains universal conditions: 1
+INIT
+Open list sizes (priorities): 0 (0),  0 (0), 
+Initializing cyclic causal graph heuristic...done.
+Best heuristic values of queues: 441/-1 [expanded 1 state(s)]
+Best heuristic values of queues: 282/-1 [expanded 7 state(s)]
+Best heuristic values of queues: 266.99/-1 [expanded 13 state(s)]
+Best heuristic values of queues: 243/-1 [expanded 14 state(s)]
+Best heuristic values of queues: 242.99/-1 [expanded 15 state(s)]
+Best heuristic values of queues: 240/-1 [expanded 17 state(s)]
+Best heuristic values of queues: 239.99/-1 [expanded 20 state(s)]
+Best heuristic values of queues: 236.99/-1 [expanded 23 state(s)]
+Best heuristic values of queues: 228/-1 [expanded 25 state(s)]
+Best heuristic values of queues: 197.99/-1 [expanded 28 state(s)]
+Best heuristic values of queues: 168/-1 [expanded 30 state(s)]
+Best heuristic values of queues: 110.99/-1 [expanded 37 state(s)]
+Best heuristic values of queues: 83.99/-1 [expanded 38 state(s)]
+Best heuristic values of queues: 81/-1 [expanded 40 state(s)]
+Best heuristic values of queues: 77.99/-1 [expanded 41 state(s)]
+Best heuristic values of queues: 69/-1 [expanded 44 state(s)]
+Best heuristic values of queues: 68.99/-1 [expanded 45 state(s)]
+Best heuristic values of queues: 65.99/-1 [expanded 46 state(s)]
+Best heuristic values of queues: 63/-1 [expanded 47 state(s)]
+Best heuristic values of queues: 32.99/-1 [expanded 49 state(s)]
+Best heuristic values of queues: 3/-1 [expanded 50 state(s)]
+Best heuristic values of queues: 0/-1 [expanded 52 state(s)]
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_58) [3.00000000]
+3.00000000: (move_bside train_slt40 track_58 track_61_service) [3.00000000]
+3.00000000: (move_bside train_slt41 track_entry track_58) [3.00000000]
+6.00000000: (move_aside train_slt40 track_61_service track_59) [3.00000000]
+9.00000000: (move_bside train_slt40 track_59 track_62_service) [3.00000000]
+9.00000000: (move_bside train_slt42 track_entry track_59) [3.00000000]
+12.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+12.00000000: (move_bside train_slt41 track_58 track_61_service) [3.00000000]
+15.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+45.00000000: (move_aside train_slt41 track_61_service track_56) [3.00000000]
+48.00000000: (move_bside train_slt40 track_62_service track_63) [3.00000000]
+48.00000000: (move_bside train_slt42 track_59 track_61_service) [3.00000000]
+51.00000000: (service_train train_slt42 track_61_service) [30.00000000]
+81.00000000: (move_bside train_slt42 track_61_service track_63) [3.00000000]
+Solution with original makespan 84 found (ignoring no-moving-targets-rule).
+Plan length: 14 step(s).
+Makespan   : 84
+Makespan   : 84
+INIT
+Open list sizes (priorities): 66 (-21944),  285 (0), 
+New solution has been found.
+
+Found new plan:
+0.00000000: (move_bside train_slt40 track_entry track_58) [3.00000000]
+3.00000000: (move_bside train_slt40 track_58 track_61_service) [3.00000000]
+3.00000000: (move_bside train_slt41 track_entry track_58) [3.00000000]
+6.00000000: (move_aside train_slt40 track_61_service track_59) [3.00000000]
+9.00000000: (move_bside train_slt40 track_59 track_62_service) [3.00000000]
+9.00000000: (move_bside train_slt42 track_entry track_59) [3.00000000]
+12.00000000: (service_train train_slt40 track_62_service) [30.00000000]
+12.00000000: (move_bside train_slt41 track_58 track_61_service) [3.00000000]
+42.00000000: (move_aside train_slt40 track_62_service track_56) [3.00000000]
+42.00000000: (service_train train_slt41 track_61_service) [30.00000000]
+45.00000000: (move_bside train_slt42 track_59 track_62_service) [3.00000000]
+48.00000000: (service_train train_slt42 track_62_service) [30.00000000]
+72.00000000: (move_aside train_slt41 track_61_service track_58) [3.00000000]
+78.00000000: (move_aside train_slt42 track_62_service track_59) [3.00000000]
+Solution with original makespan 81 found (ignoring no-moving-targets-rule).
+Plan length: 14 step(s).
+Makespan   : 81
+Makespan   : 81
+INIT
+Open list sizes (priorities): 89 (-16246),  20421 (0), 
+
+Search Time: 10 sec.
+Expanded Nodes: 7293 state(s).
+Rate: 729.3 Nodes/s (over 10.0s) 729.3 Nodes/s (total average)
+Generated Nodes: 55801 state(s).
+Rate: 5580.1 Nodes/s (over 10.0s) 5580.1 Nodes/s (total average)
+Overall branching factor by list sizes: 7.65131
+Averaged overall branching factor: Mean 7.66 Std: 4.59 (Num: 7287)
+Branching factors by open list:
+Open List 0: Mean 1.84 Std: 0.94 (Num: 7287)
+Open List 1: Mean 5.82 Std: 3.98 (Num: 7287)
+OpenList sizes: 332 42398
+Heuristic Computations (per heuristic): 12166 Total: 12166
+Number of cache hits in heuristic (per heuristic): 0 Total: 0
+Best heuristic values of queues: [0: 0] [1: -1]
+
+Now:  2024-09-18 15:34:08.177818
+('preprocess/preprocess',) {'stdin': <_io.TextIOWrapper name='output.sas' mode='r' encoding='UTF-8'>}
+('search/search', 'y+a+t+300+T+300+u+O+3', 'p', '/home/nlonyuk/Desktop/nazar/thesis/tfd/downward/pln.txt') {'stdin': <_io.TextIOWrapper name='output' mode='r' encoding='UTF-8'>}
