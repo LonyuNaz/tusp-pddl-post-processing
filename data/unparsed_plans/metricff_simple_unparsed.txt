@@ -1,0 +1,75 @@
+
+ff: parsing domain file
+domain 'DOM_1B' defined
+ ... done.
+ff: parsing problem file
+problem 'BH_2_3T' defined
+ ... done.
+
+
+translating negated cond for predicate =
+translating negated cond for predicate AHEAD_ASIDE
+translating negated cond for predicate SERVICED
+
+task contains conditional effects. turning off state domination.
+
+
+warning: numeric precondition. turning cost-minimizing relaxed plans OFF.
+
+ff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.
+Metric is ((1.00*[RF42](TOTAL-COST)) - () + 0.00)
+COST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   24 into depth [1][2]
+                                  23            [1]
+                                  17            [1]
+                                  16            [1]
+                                  15            [1][2][3]
+                                  14            [1]
+                                  13            [1][2][3]
+                                  11            [1]
+                                   9            [1]
+                                   8            [1]
+                                   7            [1]
+                                   6            [1]
+                                   5            [1][2]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: MOVE_BSIDE TRAIN_SLT40 TRACK_ENTRY TRACK_56
+        1: MOVE_BSIDE TRAIN_SLT41 TRACK_ENTRY TRACK_56
+        2: MOVE_BSIDE TRAIN_SLT42 TRACK_ENTRY TRACK_57
+        3: MOVE_BSIDE TRAIN_SLT40 TRACK_56 TRACK_60
+        4: MOVE_ASIDE TRAIN_SLT40 TRACK_60 TRACK_52
+        5: MOVE_BSIDE TRAIN_SLT40 TRACK_52 TRACK_60
+        6: MOVE_ASIDE TRAIN_SLT40 TRACK_60 TRACK_56
+        7: MOVE_BSIDE TRAIN_SLT40 TRACK_56 TRACK_62_SERVICE
+        8: SERVICE_TRAIN TRAIN_SLT40 TRACK_62_SERVICE
+        9: MOVE_BSIDE TRAIN_SLT42 TRACK_57 TRACK_61_SERVICE
+       10: MOVE_ASIDE TRAIN_SLT40 TRACK_62_SERVICE TRACK_56
+       11: MOVE_BSIDE TRAIN_SLT40 TRACK_56 TRACK_60
+       12: MOVE_BSIDE TRAIN_SLT41 TRACK_56 TRACK_62_SERVICE
+       13: MOVE_ASIDE TRAIN_SLT40 TRACK_60 TRACK_52
+       14: SERVICE_TRAIN TRAIN_SLT42 TRACK_61_SERVICE
+       15: MOVE_ASIDE TRAIN_SLT42 TRACK_61_SERVICE TRACK_56
+       16: SERVICE_TRAIN TRAIN_SLT41 TRACK_62_SERVICE
+       17: MOVE_ASIDE TRAIN_SLT41 TRACK_62_SERVICE TRACK_56
+       18: MOVE_BSIDE TRAIN_SLT41 TRACK_56 TRACK_60
+       19: MOVE_ASIDE TRAIN_SLT41 TRACK_60 TRACK_52
+       20: PARK TRAIN_SLT40 TRAIN_SLT41 TRACK_52 TRACK_52
+       21: PARK TRAIN_SLT40 TRAIN_SLT42 TRACK_52 TRACK_56
+       22: PARK TRAIN_SLT41 TRAIN_SLT42 TRACK_52 TRACK_56
+plan cost: 17.000000
+
+time spent:   46.85 seconds instantiating 6 easy, 489 hard action templates
+               2.07 seconds reachability analysis, yielding 60 facts and 495 actions
+              12.79 seconds creating final representation with 54 relevant facts, 158 relevant fluents
+              82.04 seconds computing LNF
+              32.38 seconds building connectivity graph
+            1438.63 seconds searching, evaluating 288 states, to a max depth of 3
+            1614.76 seconds total time
+

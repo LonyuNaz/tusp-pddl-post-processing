@@ -1,0 +1,306 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 130
+Aibr Preprocessing
+|F|:48
+|X|:42
+Actions
+[connected, parking_allowed, service_allowed, entry_distance, train_length, track_length, parking_pair, max_num_trains]
+Sizes
+417
+417
+|A|:417
+|P|:0
+|E|:0
+H1 Setup Time (msec): 24
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 13.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_61_service)
+7.0: (move_aside train_slt42 track_61_service track_58)
+8.0: (move_bside train_slt42 track_58 track_61_service)
+9.0: (service_train train_slt42 track_61_service)
+10.0: (move_aside train_slt42 track_61_service track_59)
+11.0: (move_bside train_slt42 track_59 track_60)
+12.0: (move_aside train_slt42 track_60 track_59)
+13.0: (park train_slt40 train_slt42 track_59 track_59)
+14.0: (move_bside train_slt41 track_57 track_61_service)
+15.0: (service_train train_slt41 track_61_service)
+16.0: (move_aside train_slt41 track_61_service track_56)
+17.0: (park train_slt41 train_slt42 track_56 track_59)
+18.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:19
+Metric (Search):13.0
+Planning Time (msec): 257
+Heuristic Time (msec): 240
+Search Time (msec): 254
+Expanded Nodes:105
+States Evaluated:460
+Number of Dead-Ends detected:0
+Number of Duplicates detected:142
+NEW COST ==================================================================================>13.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 11.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_61_service)
+7.0: (move_aside train_slt42 track_61_service track_58)
+8.0: (move_bside train_slt42 track_58 track_61_service)
+9.0: (service_train train_slt42 track_61_service)
+10.0: (move_aside train_slt42 track_61_service track_59)
+11.0: (move_bside train_slt41 track_57 track_62_service)
+12.0: (park train_slt40 train_slt42 track_59 track_59)
+13.0: (service_train train_slt41 track_62_service)
+14.0: (move_aside train_slt41 track_62_service track_56)
+15.0: (park train_slt41 train_slt42 track_56 track_59)
+16.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:17
+Metric (Search):11.0
+Planning Time (msec): 87
+Heuristic Time (msec): 80
+Search Time (msec): 87
+Expanded Nodes:59
+States Evaluated:299
+Number of Dead-Ends detected:0
+Number of Duplicates detected:56
+NEW COST ==================================================================================>11.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 9.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_62_service)
+7.0: (service_train train_slt42 track_62_service)
+8.0: (move_aside train_slt42 track_62_service track_59)
+9.0: (move_bside train_slt41 track_57 track_62_service)
+10.0: (park train_slt40 train_slt42 track_59 track_59)
+11.0: (service_train train_slt41 track_62_service)
+12.0: (move_aside train_slt41 track_62_service track_56)
+13.0: (park train_slt41 train_slt42 track_56 track_59)
+14.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:15
+Metric (Search):9.0
+Planning Time (msec): 270
+Heuristic Time (msec): 246
+Search Time (msec): 270
+Expanded Nodes:481
+States Evaluated:1020
+Number of Dead-Ends detected:1
+Number of Duplicates detected:323
+NEW COST ==================================================================================>9.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 7.0 h(n)=1.0
+-------------Time: 10s ; Expanded Nodes: 29293 (Avg-Speed 2929.0 n/s); Evaluated States: 39009
+-------------Time: 20s ; Expanded Nodes: 59450 (Avg-Speed 2972.0 n/s); Evaluated States: 77921
+-------------Time: 30s ; Expanded Nodes: 86428 (Avg-Speed 2880.0 n/s); Evaluated States: 114854
+-------------Time: 40s ; Expanded Nodes: 112948 (Avg-Speed 2823.0 n/s); Evaluated States: 149075
+-------------Time: 50s ; Expanded Nodes: 139631 (Avg-Speed 2792.0 n/s); Evaluated States: 183028
+-------------Time: 60s ; Expanded Nodes: 165851 (Avg-Speed 2764.0 n/s); Evaluated States: 213051
+-------------Time: 70s ; Expanded Nodes: 193002 (Avg-Speed 2757.0 n/s); Evaluated States: 244775
+-------------Time: 80s ; Expanded Nodes: 219101 (Avg-Speed 2738.0 n/s); Evaluated States: 274969
+-------------Time: 90s ; Expanded Nodes: 245243 (Avg-Speed 2724.0 n/s); Evaluated States: 304673
+-------------Time: 100s ; Expanded Nodes: 273748 (Avg-Speed 2737.0 n/s); Evaluated States: 333689
+-------------Time: 110s ; Expanded Nodes: 299100 (Avg-Speed 2719.0 n/s); Evaluated States: 365979
+-------------Time: 120s ; Expanded Nodes: 324344 (Avg-Speed 2702.0 n/s); Evaluated States: 398317
+-------------Time: 130s ; Expanded Nodes: 350108 (Avg-Speed 2693.0 n/s); Evaluated States: 430246
+-------------Time: 140s ; Expanded Nodes: 376763 (Avg-Speed 2691.0 n/s); Evaluated States: 461085
+-------------Time: 150s ; Expanded Nodes: 403911 (Avg-Speed 2692.0 n/s); Evaluated States: 488834
+-------------Time: 160s ; Expanded Nodes: 436537 (Avg-Speed 2728.0 n/s); Evaluated States: 516627
+-------------Time: 170s ; Expanded Nodes: 466933 (Avg-Speed 2746.0 n/s); Evaluated States: 544768
+-------------Time: 180s ; Expanded Nodes: 492234 (Avg-Speed 2734.0 n/s); Evaluated States: 576392
+-------------Time: 190s ; Expanded Nodes: 518679 (Avg-Speed 2729.0 n/s); Evaluated States: 608807
+-------------Time: 200s ; Expanded Nodes: 544805 (Avg-Speed 2724.0 n/s); Evaluated States: 640930
+-------------Time: 210s ; Expanded Nodes: 570805 (Avg-Speed 2718.0 n/s); Evaluated States: 670647
+-------------Time: 220s ; Expanded Nodes: 597832 (Avg-Speed 2717.0 n/s); Evaluated States: 699648
+-------------Time: 230s ; Expanded Nodes: 624975 (Avg-Speed 2717.0 n/s); Evaluated States: 730828
+-------------Time: 240s ; Expanded Nodes: 656938 (Avg-Speed 2737.0 n/s); Evaluated States: 760791
+-------------Time: 250s ; Expanded Nodes: 684299 (Avg-Speed 2737.0 n/s); Evaluated States: 788572
+-------------Time: 260s ; Expanded Nodes: 712826 (Avg-Speed 2741.0 n/s); Evaluated States: 815770
+-------------Time: 270s ; Expanded Nodes: 740643 (Avg-Speed 2743.0 n/s); Evaluated States: 843041
+-------------Time: 280s ; Expanded Nodes: 780103 (Avg-Speed 2786.0 n/s); Evaluated States: 870032
+-------------Time: 290s ; Expanded Nodes: 807651 (Avg-Speed 2785.0 n/s); Evaluated States: 902167
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 151
+Aibr Preprocessing
+|F|:48
+|X|:42
+Actions
+[connected, parking_allowed, service_allowed, entry_distance, train_length, track_length, parking_pair, max_num_trains]
+Sizes
+417
+417
+|A|:417
+|P|:0
+|E|:0
+H1 Setup Time (msec): 27
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 13.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_61_service)
+7.0: (move_aside train_slt42 track_61_service track_58)
+8.0: (move_bside train_slt42 track_58 track_61_service)
+9.0: (service_train train_slt42 track_61_service)
+10.0: (move_aside train_slt42 track_61_service track_59)
+11.0: (move_bside train_slt42 track_59 track_60)
+12.0: (move_aside train_slt42 track_60 track_59)
+13.0: (park train_slt40 train_slt42 track_59 track_59)
+14.0: (move_bside train_slt41 track_57 track_61_service)
+15.0: (service_train train_slt41 track_61_service)
+16.0: (move_aside train_slt41 track_61_service track_56)
+17.0: (park train_slt41 train_slt42 track_56 track_59)
+18.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:19
+Metric (Search):13.0
+Planning Time (msec): 299
+Heuristic Time (msec): 264
+Search Time (msec): 297
+Expanded Nodes:105
+States Evaluated:460
+Number of Dead-Ends detected:0
+Number of Duplicates detected:142
+NEW COST ==================================================================================>13.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 11.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_61_service)
+7.0: (move_aside train_slt42 track_61_service track_58)
+8.0: (move_bside train_slt42 track_58 track_61_service)
+9.0: (service_train train_slt42 track_61_service)
+10.0: (move_aside train_slt42 track_61_service track_59)
+11.0: (move_bside train_slt41 track_57 track_62_service)
+12.0: (park train_slt40 train_slt42 track_59 track_59)
+13.0: (service_train train_slt41 track_62_service)
+14.0: (move_aside train_slt41 track_62_service track_56)
+15.0: (park train_slt41 train_slt42 track_56 track_59)
+16.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:17
+Metric (Search):11.0
+Planning Time (msec): 107
+Heuristic Time (msec): 97
+Search Time (msec): 107
+Expanded Nodes:59
+States Evaluated:299
+Number of Dead-Ends detected:0
+Number of Duplicates detected:56
+NEW COST ==================================================================================>11.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 9.0 h(n)=1.0
+ g(n)= 9.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (move_bside train_slt40 track_entry track_58)
+1.0: (move_bside train_slt41 track_entry track_57)
+2.0: (move_bside train_slt42 track_entry track_56)
+3.0: (move_bside train_slt40 track_58 track_62_service)
+4.0: (service_train train_slt40 track_62_service)
+5.0: (move_aside train_slt40 track_62_service track_59)
+6.0: (move_bside train_slt42 track_56 track_62_service)
+7.0: (service_train train_slt42 track_62_service)
+8.0: (move_aside train_slt42 track_62_service track_59)
+9.0: (move_bside train_slt41 track_57 track_62_service)
+10.0: (park train_slt40 train_slt42 track_59 track_59)
+11.0: (service_train train_slt41 track_62_service)
+12.0: (move_aside train_slt41 track_62_service track_56)
+13.0: (park train_slt41 train_slt42 track_56 track_59)
+14.0: (park train_slt40 train_slt41 track_59 track_56)
+
+Plan-Length:15
+Metric (Search):9.0
+Planning Time (msec): 314
+Heuristic Time (msec): 284
+Search Time (msec): 314
+Expanded Nodes:481
+States Evaluated:1020
+Number of Dead-Ends detected:1
+Number of Duplicates detected:323
+NEW COST ==================================================================================>9.0
+ g(n)= 1.0 h(n)=11.0
+ g(n)= 2.0 h(n)=8.0
+ g(n)= 3.0 h(n)=4.0
+ g(n)= 5.0 h(n)=3.0
+ g(n)= 6.0 h(n)=2.0
+ g(n)= 7.0 h(n)=1.0
+-------------Time: 10s ; Expanded Nodes: 27314 (Avg-Speed 2731.0 n/s); Evaluated States: 35845
+-------------Time: 20s ; Expanded Nodes: 53367 (Avg-Speed 2668.0 n/s); Evaluated States: 70460
+-------------Time: 30s ; Expanded Nodes: 78554 (Avg-Speed 2618.0 n/s); Evaluated States: 103940
+-------------Time: 40s ; Expanded Nodes: 101996 (Avg-Speed 2549.0 n/s); Evaluated States: 134258
+-------------Time: 50s ; Expanded Nodes: 125523 (Avg-Speed 2510.0 n/s); Evaluated States: 164369

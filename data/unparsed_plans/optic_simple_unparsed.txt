@@ -1,0 +1,291 @@
+Number of literals: 54
+Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+No semaphore facts found, returning
+(track_length track_entry) has a finite lower bound: [240.000,inf]
+(num_trains track_entry) has a finite upper bound: [-inf,3.000]
+(astack_distance track_entry) has finite bounds: [0.000,0.000]
+(bstack_distance track_entry) has a finite upper bound: [-inf,240.000]
+(train_entry_distance train_slt40) has finite bounds: [0.000,3.000]
+(train_entry_distance train_slt41) has finite bounds: [0.000,3.000]
+(train_entry_distance train_slt42) has finite bounds: [0.000,3.000]
+Have identified that bigger values of (track_length track_51b) are preferable
+Have identified that bigger values of (track_length track_63) are preferable
+Have identified that smaller values of (bstack_distance track_entry) are preferable
+[01;34mNo analytic limits found, not considering limit effects of goal-only operators[00m
+Assignment numeric effect ((bstack_distance track_51b) =(track_length track_51b)) makes effects on 3 be order-dependent
+Assignment numeric effect ((astack_distance track_51b) = -80.000 + (track_length track_51b)) makes effects on 2 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_51b)) makes effects on 57 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt40) = 2.000) makes effects on 56 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_51b)) makes effects on 59 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt41) = 2.000) makes effects on 58 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_51b)) makes effects on 61 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt42) = 2.000) makes effects on 60 be order-dependent
+Assignment numeric effect ((bstack_distance track_52) =(track_length track_52)) makes effects on 7 be order-dependent
+Assignment numeric effect ((astack_distance track_52) = -80.000 + (track_length track_52)) makes effects on 6 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_52)) makes effects on 57 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt40) = 1.000) makes effects on 56 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_52)) makes effects on 59 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt41) = 1.000) makes effects on 58 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_52)) makes effects on 61 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt42) = 1.000) makes effects on 60 be order-dependent
+Assignment numeric effect ((bstack_distance track_53) =(track_length track_53)) makes effects on 11 be order-dependent
+Assignment numeric effect ((astack_distance track_53) = -80.000 + (track_length track_53)) makes effects on 10 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_53)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_53)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_53)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_54) =(track_length track_54)) makes effects on 15 be order-dependent
+Assignment numeric effect ((astack_distance track_54) = -80.000 + (track_length track_54)) makes effects on 14 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_54)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_54)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_54)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_55) =(track_length track_55)) makes effects on 19 be order-dependent
+Assignment numeric effect ((astack_distance track_55) = -80.000 + (track_length track_55)) makes effects on 18 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_55)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_55)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_55)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_56) =(track_length track_56)) makes effects on 23 be order-dependent
+Assignment numeric effect ((astack_distance track_56) = -80.000 + (track_length track_56)) makes effects on 22 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_56)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_56)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_56)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_57) =(track_length track_57)) makes effects on 27 be order-dependent
+Assignment numeric effect ((astack_distance track_57) = -80.000 + (track_length track_57)) makes effects on 26 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_57)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_57)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_57)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_58) =(track_length track_58)) makes effects on 31 be order-dependent
+Assignment numeric effect ((astack_distance track_58) = -80.000 + (track_length track_58)) makes effects on 30 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_58)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_58)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_58)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_59) =(track_length track_59)) makes effects on 35 be order-dependent
+Assignment numeric effect ((astack_distance track_59) = -80.000 + (track_length track_59)) makes effects on 34 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_59)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_59)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_59)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_60) =(track_length track_60)) makes effects on 39 be order-dependent
+Assignment numeric effect ((astack_distance track_60) = -80.000 + (track_length track_60)) makes effects on 38 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_60)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_60)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_60)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_61_service) =(track_length track_61_service)) makes effects on 43 be order-dependent
+Assignment numeric effect ((astack_distance track_61_service) = -80.000 + (track_length track_61_service)) makes effects on 42 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_61_service)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_61_service)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_61_service)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_62_service) =(track_length track_62_service)) makes effects on 47 be order-dependent
+Assignment numeric effect ((astack_distance track_62_service) = -80.000 + (track_length track_62_service)) makes effects on 46 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_62_service)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_62_service)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_62_service)) makes effects on 61 be order-dependent
+Assignment numeric effect ((bstack_distance track_63) =(track_length track_63)) makes effects on 51 be order-dependent
+Assignment numeric effect ((astack_distance track_63) = -80.000 + (track_length track_63)) makes effects on 50 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(astack_distance track_63)) makes effects on 57 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt40) = 3.000) makes effects on 56 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(astack_distance track_63)) makes effects on 59 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt41) = 3.000) makes effects on 58 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(astack_distance track_63)) makes effects on 61 be order-dependent
+Assignment numeric effect ((train_entry_distance train_slt42) = 3.000) makes effects on 60 be order-dependent
+Assignment numeric effect ((astack_distance track_52) = 0.000) makes effects on 6 be order-dependent
+Assignment numeric effect ((bstack_distance track_52) = 80.000) makes effects on 7 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) = 0.000) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) = 0.000) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) = 0.000) makes effects on 61 be order-dependent
+Assignment numeric effect ((astack_distance track_53) = 0.000) makes effects on 10 be order-dependent
+Assignment numeric effect ((bstack_distance track_53) = 80.000) makes effects on 11 be order-dependent
+Assignment numeric effect ((astack_distance track_54) = 0.000) makes effects on 14 be order-dependent
+Assignment numeric effect ((bstack_distance track_54) = 80.000) makes effects on 15 be order-dependent
+Assignment numeric effect ((astack_distance track_55) = 0.000) makes effects on 18 be order-dependent
+Assignment numeric effect ((bstack_distance track_55) = 80.000) makes effects on 19 be order-dependent
+Assignment numeric effect ((astack_distance track_56) = 0.000) makes effects on 22 be order-dependent
+Assignment numeric effect ((bstack_distance track_56) = 80.000) makes effects on 23 be order-dependent
+Assignment numeric effect ((astack_distance track_57) = 0.000) makes effects on 26 be order-dependent
+Assignment numeric effect ((bstack_distance track_57) = 80.000) makes effects on 27 be order-dependent
+Assignment numeric effect ((astack_distance track_58) = 0.000) makes effects on 30 be order-dependent
+Assignment numeric effect ((bstack_distance track_58) = 80.000) makes effects on 31 be order-dependent
+Assignment numeric effect ((astack_distance track_59) = 0.000) makes effects on 34 be order-dependent
+Assignment numeric effect ((bstack_distance track_59) = 80.000) makes effects on 35 be order-dependent
+Assignment numeric effect ((astack_distance track_60) = 0.000) makes effects on 38 be order-dependent
+Assignment numeric effect ((bstack_distance track_60) = 80.000) makes effects on 39 be order-dependent
+Assignment numeric effect ((astack_distance track_61_service) = 0.000) makes effects on 42 be order-dependent
+Assignment numeric effect ((bstack_distance track_61_service) = 80.000) makes effects on 43 be order-dependent
+Assignment numeric effect ((astack_distance track_62_service) = 0.000) makes effects on 46 be order-dependent
+Assignment numeric effect ((bstack_distance track_62_service) = 80.000) makes effects on 47 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_52)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_52)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_52)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_53)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_53)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_53)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_54)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_54)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_54)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_55)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_55)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_55)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_56)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_56)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_56)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_57)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_57)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_57)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_58)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_58)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_58)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_59)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_59)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_59)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_60)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_60)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_60)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_61_service)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_61_service)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_61_service)) makes effects on 61 be order-dependent
+Assignment numeric effect ((aside_distance train_slt40) =(bstack_distance track_62_service)) makes effects on 57 be order-dependent
+Assignment numeric effect ((aside_distance train_slt41) =(bstack_distance track_62_service)) makes effects on 59 be order-dependent
+Assignment numeric effect ((aside_distance train_slt42) =(bstack_distance track_62_service)) makes effects on 61 be order-dependent
+Action 380 - (park_different_tracks train_slt40 train_slt41 track_52 track_53) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 383 - (park_different_tracks train_slt41 train_slt42 track_52 track_53) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 386 - (park_different_tracks train_slt40 train_slt41 track_52 track_54) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 389 - (park_different_tracks train_slt41 train_slt42 track_52 track_54) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 392 - (park_different_tracks train_slt40 train_slt41 track_53 track_54) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 395 - (park_different_tracks train_slt41 train_slt42 track_53 track_54) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 398 - (park_different_tracks train_slt40 train_slt41 track_52 track_55) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 401 - (park_different_tracks train_slt41 train_slt42 track_52 track_55) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 404 - (park_different_tracks train_slt40 train_slt41 track_53 track_55) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 407 - (park_different_tracks train_slt41 train_slt42 track_53 track_55) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 410 - (park_different_tracks train_slt40 train_slt41 track_54 track_55) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 413 - (park_different_tracks train_slt41 train_slt42 track_54 track_55) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 416 - (park_different_tracks train_slt40 train_slt41 track_52 track_56) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 419 - (park_different_tracks train_slt41 train_slt42 track_52 track_56) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 422 - (park_different_tracks train_slt40 train_slt41 track_53 track_56) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 425 - (park_different_tracks train_slt41 train_slt42 track_53 track_56) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 428 - (park_different_tracks train_slt40 train_slt41 track_54 track_56) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 431 - (park_different_tracks train_slt41 train_slt42 track_54 track_56) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 434 - (park_different_tracks train_slt40 train_slt41 track_55 track_56) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 437 - (park_different_tracks train_slt41 train_slt42 track_55 track_56) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 440 - (park_different_tracks train_slt40 train_slt41 track_52 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 443 - (park_different_tracks train_slt41 train_slt42 track_52 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 446 - (park_different_tracks train_slt40 train_slt41 track_53 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 449 - (park_different_tracks train_slt41 train_slt42 track_53 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 452 - (park_different_tracks train_slt40 train_slt41 track_54 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 455 - (park_different_tracks train_slt41 train_slt42 track_54 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 458 - (park_different_tracks train_slt40 train_slt41 track_55 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 461 - (park_different_tracks train_slt41 train_slt42 track_55 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 464 - (park_different_tracks train_slt40 train_slt41 track_56 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 467 - (park_different_tracks train_slt41 train_slt42 track_56 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 470 - (park_different_tracks train_slt40 train_slt41 track_52 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 473 - (park_different_tracks train_slt41 train_slt42 track_52 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 476 - (park_different_tracks train_slt40 train_slt41 track_53 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 479 - (park_different_tracks train_slt41 train_slt42 track_53 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 482 - (park_different_tracks train_slt40 train_slt41 track_54 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 485 - (park_different_tracks train_slt41 train_slt42 track_54 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 488 - (park_different_tracks train_slt40 train_slt41 track_55 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 491 - (park_different_tracks train_slt41 train_slt42 track_55 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 494 - (park_different_tracks train_slt40 train_slt41 track_56 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 497 - (park_different_tracks train_slt41 train_slt42 track_56 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 500 - (park_different_tracks train_slt40 train_slt41 track_57 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 503 - (park_different_tracks train_slt41 train_slt42 track_57 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 506 - (park_different_tracks train_slt40 train_slt41 track_52 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 509 - (park_different_tracks train_slt41 train_slt42 track_52 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 512 - (park_different_tracks train_slt40 train_slt41 track_53 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 515 - (park_different_tracks train_slt41 train_slt42 track_53 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 518 - (park_different_tracks train_slt40 train_slt41 track_54 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 521 - (park_different_tracks train_slt41 train_slt42 track_54 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 524 - (park_different_tracks train_slt40 train_slt41 track_55 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 527 - (park_different_tracks train_slt41 train_slt42 track_55 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 530 - (park_different_tracks train_slt40 train_slt41 track_56 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 533 - (park_different_tracks train_slt41 train_slt42 track_56 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 536 - (park_different_tracks train_slt40 train_slt41 track_57 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 539 - (park_different_tracks train_slt41 train_slt42 track_57 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 542 - (park_different_tracks train_slt40 train_slt41 track_58 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 545 - (park_different_tracks train_slt41 train_slt42 track_58 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 548 - (park_different_tracks train_slt40 train_slt41 track_52 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 551 - (park_different_tracks train_slt41 train_slt42 track_52 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 554 - (park_different_tracks train_slt40 train_slt41 track_53 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 557 - (park_different_tracks train_slt41 train_slt42 track_53 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 560 - (park_different_tracks train_slt40 train_slt41 track_54 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 563 - (park_different_tracks train_slt41 train_slt42 track_54 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 566 - (park_different_tracks train_slt40 train_slt41 track_55 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 569 - (park_different_tracks train_slt41 train_slt42 track_55 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 572 - (park_different_tracks train_slt40 train_slt41 track_56 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 575 - (park_different_tracks train_slt41 train_slt42 track_56 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 578 - (park_different_tracks train_slt40 train_slt41 track_57 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 581 - (park_different_tracks train_slt41 train_slt42 track_57 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 584 - (park_different_tracks train_slt40 train_slt41 track_58 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 587 - (park_different_tracks train_slt41 train_slt42 track_58 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 590 - (park_different_tracks train_slt40 train_slt41 track_59 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 593 - (park_different_tracks train_slt41 train_slt42 track_59 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 596 - (park_different_tracks train_slt40 train_slt41 track_52 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 599 - (park_different_tracks train_slt41 train_slt42 track_52 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 602 - (park_different_tracks train_slt40 train_slt41 track_53 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 605 - (park_different_tracks train_slt41 train_slt42 track_53 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 608 - (park_different_tracks train_slt40 train_slt41 track_54 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 611 - (park_different_tracks train_slt41 train_slt42 track_54 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 614 - (park_different_tracks train_slt40 train_slt41 track_55 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 617 - (park_different_tracks train_slt41 train_slt42 track_55 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 620 - (park_different_tracks train_slt40 train_slt41 track_56 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 623 - (park_different_tracks train_slt41 train_slt42 track_56 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 626 - (park_different_tracks train_slt40 train_slt41 track_57 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 629 - (park_different_tracks train_slt41 train_slt42 track_57 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 632 - (park_different_tracks train_slt40 train_slt41 track_58 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 635 - (park_different_tracks train_slt41 train_slt42 track_58 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 638 - (park_different_tracks train_slt40 train_slt41 track_59 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 641 - (park_different_tracks train_slt41 train_slt42 track_59 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 644 - (park_different_tracks train_slt40 train_slt41 track_60 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 647 - (park_different_tracks train_slt41 train_slt42 track_60 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 650 - (park_same_track train_slt40 train_slt41 track_52) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 653 - (park_same_track train_slt41 train_slt42 track_52) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 656 - (park_same_track train_slt40 train_slt41 track_53) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 659 - (park_same_track train_slt41 train_slt42 track_53) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 662 - (park_same_track train_slt40 train_slt41 track_54) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 665 - (park_same_track train_slt41 train_slt42 track_54) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 668 - (park_same_track train_slt40 train_slt41 track_55) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 671 - (park_same_track train_slt41 train_slt42 track_55) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 674 - (park_same_track train_slt40 train_slt41 track_56) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 677 - (park_same_track train_slt41 train_slt42 track_56) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 680 - (park_same_track train_slt40 train_slt41 track_57) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 683 - (park_same_track train_slt41 train_slt42 track_57) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 686 - (park_same_track train_slt40 train_slt41 track_58) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 689 - (park_same_track train_slt41 train_slt42 track_58) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 692 - (park_same_track train_slt40 train_slt41 track_59) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 695 - (park_same_track train_slt41 train_slt42 track_59) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 698 - (park_same_track train_slt40 train_slt41 track_60) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 701 - (park_same_track train_slt41 train_slt42 track_60) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+Action 704 - (park_same_track train_slt40 train_slt41 track_63) is uninteresting once we have fact (ahead_aside train_slt40 train_slt41)
+Action 707 - (park_same_track train_slt41 train_slt42 track_63) is uninteresting once we have fact (ahead_aside train_slt41 train_slt42)
+23% of the ground temporal actions in this problem are compression-safe
+Initial heuristic = 28.000, admissible cost estimate 0.000
+b (27.000 | 3.000)b (26.000 | 9.002)b (25.000 | 9.002)b (24.000 | 42.004)b (23.000 | 45.005)b (22.000 | 48.006)b (20.000 | 48.006)b (17.000 | 78.007)b (16.000 | 81.008)b (15.000 | 81.008)b (14.000 | 81.008)b (13.000 | 84.009)b (11.000 | 84.009)b (8.000 | 84.110)b (6.000 | 84.110)b (5.000 | 84.110)b (4.000 | 84.110)b (3.000 | 84.110)b (2.000 | 87.010)b (1.000 | 87.010)(G)
+; No metric specified - using makespan
+
+; Plan found with metric 87.111
+; States evaluated so far: 3724
+; States pruned based on pre-heuristic cost lower bound: 0
+; Time 7.77
+0.000: (move_bside_onto_empty train_slt40 track_entry track_56)  [3.000]
+3.001: (move_bside_onto_empty train_slt40 track_56 track_62_service)  [3.000]
+6.002: (move_aside_onto_empty train_slt40 track_62_service track_56)  [3.000]
+9.003: (move_bside_onto_empty train_slt40 track_56 track_62_service)  [3.000]
+12.004: (service_train train_slt40 track_62_service)  [30.000]
+12.004: (move_bside_onto_empty train_slt41 track_entry track_56)  [3.000]
+15.005: (move_bside_onto_empty train_slt42 track_entry track_57)  [3.000]
+18.006: (move_bside_onto_empty train_slt42 track_57 track_61_service)  [3.000]
+21.007: (service_train train_slt42 track_61_service)  [30.000]
+42.005: (move_bside_onto_empty train_slt40 track_62_service track_63)  [3.000]
+45.006: (move_aside_onto_empty train_slt40 track_63 track_60)  [3.000]
+45.006: (move_bside_onto_empty train_slt41 track_56 track_62_service)  [3.000]
+48.007: (service_train train_slt41 track_62_service)  [30.000]
+48.007: (move_aside_onto_empty train_slt40 track_60 track_56)  [3.000]
+78.008: (move_bside_onto_empty train_slt41 track_62_service track_63)  [3.000]
+81.009: (move_aside_onto_empty train_slt41 track_63 track_60)  [3.000]
+84.010: (park_different_tracks train_slt40 train_slt41 track_56 track_60)  [0.100]
+84.010: (move_bside_onto_empty train_slt42 track_61_service track_63)  [3.000]
+87.011: (park_different_tracks train_slt41 train_slt42 track_60 track_63)  [0.100]
+
+ * All goal deadlines now no later than 87.111
+
+Resorting to best-first search
+Running WA* with W = 5.000, not restarting with goal states
+b (27.000 | 3.000)b (25.000 | 6.001)b (24.000 | 42.004)b (23.000 | 45.005)b (22.000 | 45.005)b (20.000 | 48.006)b (19.000 | 51.007)b (18.000 | 51.007)b (17.000 | 93.011)b (17.000 | 87.009)b (16.000 | 90.011)b (16.000 | 87.009)b (15.000 | 87.010)b (14.000 | 90.011)b (4.000 | 87.010)b (3.000 | 90.011)b (3.000 | 87.010)b (2.000 | 87.010)b (1.000 | 87.110)b (1.000 | 87.010)(G)b (0.000 | 87.112)(G)b (0.000 | 87.110)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)(G)

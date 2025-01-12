@@ -1,0 +1,929 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 1099
+Aibr Preprocessing
+|F|:119
+|X|:44
+Actions
+[connected, parking_allowed, service_allowed, entry_distance, train_length, track_length, walking_duration, parking_pair, max_num_trains, exit_allowed]
+Sizes
+4680
+4680
+|A|:4680
+|P|:0
+|E|:0
+H1 Setup Time (msec): 240
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+ g(n)= 229.0 h(n)=8.0
+ g(n)= 234.0 h(n)=6.0
+ g(n)= 238.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (park train_slt41 train_slt42 track_59 track_60)
+52.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+53.0: (exit driver_Andy train_slt43 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_61_service)
+55.0: (exit driver_Andy train_slt44 track_61_service)
+56.0: (service_train train_slt44 track_61_service)
+57.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_61_service track_61_service track_63)
+58.0: (exit driver_Andy train_slt44 track_63)
+59.0: (park train_slt42 train_slt44 track_60 track_63)
+60.0: (park train_slt41 train_slt44 track_59 track_63)
+61.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_60 track_63)
+62.0: (exit driver_Andy train_slt43 track_63)
+63.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_63 track_60 track_63)
+64.0: (exit driver_Andy train_slt40 track_63)
+65.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_63 track_61_service)
+66.0: (move_aside train_slt40 track_61_service track_56)
+67.0: (park train_slt41 train_slt43 track_59 track_63)
+68.0: (park train_slt43 train_slt44 track_63 track_63)
+69.0: (park train_slt42 train_slt43 track_60 track_63)
+70.0: (exit driver_Andy train_slt40 track_56)
+71.0: (park train_slt40 train_slt43 track_56 track_63)
+72.0: (park train_slt40 train_slt44 track_56 track_63)
+73.0: (park train_slt40 train_slt42 track_56 track_60)
+74.0: (park train_slt40 train_slt41 track_56 track_59)
+
+Plan-Length:75
+Metric (Search):240.0
+Planning Time (msec): 9444
+Heuristic Time (msec): 9290
+Search Time (msec): 9442
+Expanded Nodes:253
+States Evaluated:1109
+Number of Dead-Ends detected:174
+Number of Duplicates detected:389
+NEW COST ==================================================================================>240.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+ g(n)= 229.0 h(n)=8.0
+ g(n)= 234.0 h(n)=6.0
+ g(n)= 238.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (park train_slt41 train_slt42 track_59 track_60)
+52.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+53.0: (exit driver_Andy train_slt43 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_61_service)
+55.0: (exit driver_Andy train_slt44 track_61_service)
+56.0: (service_train train_slt44 track_61_service)
+57.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_61_service track_61_service track_63)
+58.0: (exit driver_Andy train_slt44 track_63)
+59.0: (park train_slt42 train_slt44 track_60 track_63)
+60.0: (park train_slt41 train_slt44 track_59 track_63)
+61.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_60 track_63)
+62.0: (exit driver_Andy train_slt43 track_63)
+63.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_63 track_60 track_63)
+64.0: (exit driver_Andy train_slt40 track_63)
+65.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_63 track_61_service)
+66.0: (move_aside train_slt40 track_61_service track_56)
+67.0: (park train_slt40 train_slt42 track_56 track_60)
+68.0: (park train_slt40 train_slt43 track_56 track_63)
+69.0: (park train_slt42 train_slt43 track_60 track_63)
+70.0: (park train_slt40 train_slt44 track_56 track_63)
+71.0: (park train_slt43 train_slt44 track_63 track_63)
+72.0: (park train_slt41 train_slt43 track_59 track_63)
+73.0: (park train_slt40 train_slt41 track_56 track_59)
+
+Plan-Length:74
+Metric (Search):238.0
+Planning Time (msec): 8345
+Heuristic Time (msec): 8237
+Search Time (msec): 8345
+Expanded Nodes:196
+States Evaluated:914
+Number of Dead-Ends detected:174
+Number of Duplicates detected:251
+NEW COST ==================================================================================>238.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+ g(n)= 229.0 h(n)=8.0
+ g(n)= 234.0 h(n)=6.0
+ g(n)= 237.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (park train_slt41 train_slt42 track_59 track_60)
+52.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+53.0: (exit driver_Andy train_slt43 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_61_service)
+55.0: (exit driver_Andy train_slt44 track_61_service)
+56.0: (service_train train_slt44 track_61_service)
+57.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_61_service track_61_service track_63)
+58.0: (exit driver_Andy train_slt44 track_63)
+59.0: (park train_slt42 train_slt44 track_60 track_63)
+60.0: (park train_slt41 train_slt44 track_59 track_63)
+61.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_60 track_63)
+62.0: (exit driver_Andy train_slt43 track_63)
+63.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_63 track_60 track_63)
+64.0: (exit driver_Andy train_slt40 track_63)
+65.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_63 track_61_service)
+66.0: (exit driver_Andy train_slt40 track_61_service)
+67.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_61_service track_56)
+68.0: (park train_slt40 train_slt42 track_56 track_60)
+69.0: (park train_slt40 train_slt44 track_56 track_63)
+70.0: (park train_slt40 train_slt43 track_56 track_63)
+71.0: (park train_slt42 train_slt43 track_60 track_63)
+72.0: (park train_slt41 train_slt43 track_59 track_63)
+73.0: (park train_slt40 train_slt41 track_56 track_59)
+74.0: (park train_slt43 train_slt44 track_63 track_63)
+
+Plan-Length:75
+Metric (Search):237.0
+Planning Time (msec): 8329
+Heuristic Time (msec): 8224
+Search Time (msec): 8329
+Expanded Nodes:214
+States Evaluated:958
+Number of Dead-Ends detected:174
+Number of Duplicates detected:282
+NEW COST ==================================================================================>237.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+ g(n)= 229.0 h(n)=8.0
+ g(n)= 234.0 h(n)=6.0
+ g(n)= 232.0 h(n)=5.0
+-------------Time: 10s ; Expanded Nodes: 439 (Avg-Speed 43.0 n/s); Evaluated States: 1119
+ g(n)= 234.0 h(n)=3.0
+-------------Time: 20s ; Expanded Nodes: 1497 (Avg-Speed 74.0 n/s); Evaluated States: 2423
+-------------Time: 30s ; Expanded Nodes: 2524 (Avg-Speed 84.0 n/s); Evaluated States: 3888
+-------------Time: 40s ; Expanded Nodes: 3499 (Avg-Speed 87.0 n/s); Evaluated States: 5199
+ g(n)= 230.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+52.0: (exit driver_Andy train_slt43 track_60)
+53.0: (park train_slt41 train_slt43 track_59 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_62_service)
+55.0: (exit driver_Andy train_slt44 track_62_service)
+56.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_60 track_57)
+57.0: (exit driver_Andy train_slt42 track_57)
+58.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_57 track_60 track_56)
+59.0: (service_train train_slt44 track_62_service)
+60.0: (exit driver_Andy train_slt40 track_56)
+61.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_56 track_62_service track_63)
+62.0: (park train_slt41 train_slt42 track_59 track_57)
+63.0: (park train_slt41 train_slt44 track_59 track_63)
+64.0: (park train_slt43 train_slt44 track_60 track_63)
+65.0: (park train_slt40 train_slt43 track_56 track_60)
+66.0: (park train_slt40 train_slt44 track_56 track_63)
+67.0: (park train_slt42 train_slt43 track_57 track_60)
+68.0: (park train_slt40 train_slt42 track_56 track_57)
+69.0: (park train_slt40 train_slt41 track_56 track_59)
+70.0: (park train_slt42 train_slt44 track_57 track_63)
+
+Plan-Length:71
+Metric (Search):230.0
+Planning Time (msec): 49036
+Heuristic Time (msec): 47547
+Search Time (msec): 49036
+Expanded Nodes:4570
+States Evaluated:6944
+Number of Dead-Ends detected:7153
+Number of Duplicates detected:9270
+NEW COST ==================================================================================>230.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+ g(n)= 229.0 h(n)=8.0
+-------------Time: 10s ; Expanded Nodes: 335 (Avg-Speed 33.0 n/s); Evaluated States: 978
+-------------Time: 20s ; Expanded Nodes: 1254 (Avg-Speed 62.0 n/s); Evaluated States: 2327
+ g(n)= 224.0 h(n)=6.0
+ g(n)= 229.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+52.0: (exit driver_Andy train_slt43 track_60)
+53.0: (park train_slt41 train_slt43 track_59 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_62_service)
+55.0: (exit driver_Andy train_slt44 track_62_service)
+56.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_60 track_57)
+57.0: (exit driver_Andy train_slt42 track_57)
+58.0: (service_train train_slt44 track_62_service)
+59.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_57 track_62_service track_63)
+60.0: (exit driver_Andy train_slt44 track_63)
+61.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_60 track_52)
+62.0: (park train_slt40 train_slt44 track_52 track_63)
+63.0: (park train_slt41 train_slt44 track_59 track_63)
+64.0: (park train_slt43 train_slt44 track_60 track_63)
+65.0: (park train_slt42 train_slt43 track_57 track_60)
+66.0: (park train_slt40 train_slt41 track_52 track_59)
+67.0: (park train_slt40 train_slt42 track_52 track_57)
+68.0: (park train_slt42 train_slt44 track_57 track_63)
+69.0: (park train_slt40 train_slt43 track_52 track_60)
+70.0: (park train_slt41 train_slt42 track_59 track_57)
+
+Plan-Length:71
+Metric (Search):229.0
+Planning Time (msec): 23101
+Heuristic Time (msec): 22517
+Search Time (msec): 23101
+Expanded Nodes:1623
+States Evaluated:3239
+Number of Dead-Ends detected:2645
+Number of Duplicates detected:2953
+NEW COST ==================================================================================>229.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+-------------Time: 10s ; Expanded Nodes: 335 (Avg-Speed 33.0 n/s); Evaluated States: 962
+-------------Time: 20s ; Expanded Nodes: 1345 (Avg-Speed 67.0 n/s); Evaluated States: 2354
+ g(n)= 224.0 h(n)=6.0
+-------------Time: 30s ; Expanded Nodes: 2142 (Avg-Speed 71.0 n/s); Evaluated States: 3677
+ g(n)= 228.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+52.0: (exit driver_Andy train_slt43 track_60)
+53.0: (park train_slt41 train_slt43 track_59 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_61_service)
+55.0: (exit driver_Andy train_slt44 track_61_service)
+56.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_61_service track_60 track_55)
+57.0: (exit driver_Andy train_slt42 track_55)
+58.0: (service_train train_slt44 track_61_service)
+59.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_55 track_60 track_54)
+60.0: (exit driver_Andy train_slt40 track_54)
+61.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_54 track_61_service track_63)
+62.0: (park train_slt43 train_slt44 track_60 track_63)
+63.0: (park train_slt40 train_slt43 track_54 track_60)
+64.0: (park train_slt42 train_slt43 track_55 track_60)
+65.0: (park train_slt42 train_slt44 track_55 track_63)
+66.0: (park train_slt41 train_slt44 track_59 track_63)
+67.0: (park train_slt40 train_slt44 track_54 track_63)
+68.0: (park train_slt40 train_slt41 track_54 track_59)
+69.0: (park train_slt40 train_slt42 track_54 track_55)
+70.0: (park train_slt41 train_slt42 track_59 track_55)
+
+Plan-Length:71
+Metric (Search):228.0
+Planning Time (msec): 36277
+Heuristic Time (msec): 35267
+Search Time (msec): 36277
+Expanded Nodes:3073
+States Evaluated:4794
+Number of Dead-Ends detected:5059
+Number of Duplicates detected:5828
+NEW COST ==================================================================================>228.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+-------------Time: 10s ; Expanded Nodes: 321 (Avg-Speed 32.0 n/s); Evaluated States: 973
+ g(n)= 224.0 h(n)=6.0
+-------------Time: 20s ; Expanded Nodes: 1242 (Avg-Speed 62.0 n/s); Evaluated States: 2384
+ g(n)= 227.0 h(n)=4.0
+ g(n)= 227.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+52.0: (exit driver_Andy train_slt43 track_60)
+53.0: (park train_slt41 train_slt43 track_59 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_60 track_63 track_61_service)
+55.0: (exit driver_Andy train_slt44 track_61_service)
+56.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_61_service track_60 track_55)
+57.0: (exit driver_Andy train_slt42 track_55)
+58.0: (service_train train_slt44 track_61_service)
+59.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_55 track_61_service track_63)
+60.0: (exit driver_Andy train_slt44 track_63)
+61.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_60 track_52)
+62.0: (park train_slt40 train_slt41 track_52 track_59)
+63.0: (park train_slt42 train_slt43 track_55 track_60)
+64.0: (park train_slt42 train_slt44 track_55 track_63)
+65.0: (park train_slt41 train_slt42 track_59 track_55)
+66.0: (park train_slt40 train_slt43 track_52 track_60)
+67.0: (park train_slt40 train_slt44 track_52 track_63)
+68.0: (park train_slt43 train_slt44 track_60 track_63)
+69.0: (park train_slt41 train_slt44 track_59 track_63)
+70.0: (park train_slt40 train_slt42 track_52 track_55)
+
+Plan-Length:71
+Metric (Search):227.0
+Planning Time (msec): 26124
+Heuristic Time (msec): 25426
+Search Time (msec): 26124
+Expanded Nodes:1848
+States Evaluated:3698
+Number of Dead-Ends detected:2880
+Number of Duplicates detected:2987
+NEW COST ==================================================================================>227.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+ g(n)= 226.0 h(n)=9.0
+-------------Time: 10s ; Expanded Nodes: 291 (Avg-Speed 29.0 n/s); Evaluated States: 955
+-------------Time: 20s ; Expanded Nodes: 1225 (Avg-Speed 61.0 n/s); Evaluated States: 2379
+ g(n)= 224.0 h(n)=6.0
+-------------Time: 30s ; Expanded Nodes: 2201 (Avg-Speed 73.0 n/s); Evaluated States: 3751
+ g(n)= 225.0 h(n)=0.0
+Problem Solved
+
+Found Plan:
+0.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_entry track_entry track_53)
+1.0: (exit driver_Andy train_slt40 track_53)
+2.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_53 track_entry track_52)
+3.0: (exit driver_Andy train_slt41 track_52)
+4.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_52 track_entry track_52)
+5.0: (exit driver_Andy train_slt42 track_52)
+6.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_52 track_entry track_53)
+7.0: (exit driver_Andy train_slt43 track_53)
+8.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_53 track_entry track_57)
+9.0: (move_bside train_slt44 track_57 track_60)
+10.0: (exit driver_Andy train_slt44 track_60)
+11.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_60 track_53 track_60)
+12.0: (exit driver_Andy train_slt40 track_60)
+13.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_52 track_60)
+14.0: (exit driver_Andy train_slt41 track_60)
+15.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_60 track_60 track_59)
+16.0: (exit driver_Andy train_slt41 track_59)
+17.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_59 track_52 track_60)
+18.0: (exit driver_Andy train_slt42 track_60)
+19.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_59)
+20.0: (exit driver_Andy train_slt42 track_59)
+21.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_53 track_60)
+22.0: (exit driver_Andy train_slt43 track_60)
+23.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_60 track_60 track_59)
+24.0: (exit driver_Andy train_slt43 track_59)
+25.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_59 track_59 track_61_service)
+26.0: (exit driver_Andy train_slt43 track_61_service)
+27.0: (service_train train_slt43 track_61_service)
+28.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_61_service track_60 track_59)
+29.0: (exit driver_Andy train_slt40 track_59)
+30.0: (walk_and_enter_and_move_bside driver_Andy train_slt40 track_59 track_59 track_62_service)
+31.0: (exit driver_Andy train_slt40 track_62_service)
+32.0: (service_train train_slt40 track_62_service)
+33.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_62_service track_62_service track_59)
+34.0: (move_bside train_slt40 track_59 track_60)
+35.0: (exit driver_Andy train_slt40 track_60)
+36.0: (walk_and_enter_and_move_bside driver_Andy train_slt42 track_60 track_59 track_62_service)
+37.0: (exit driver_Andy train_slt42 track_62_service)
+38.0: (service_train train_slt42 track_62_service)
+39.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_62_service track_62_service track_59)
+40.0: (move_bside train_slt42 track_59 track_60)
+41.0: (exit driver_Andy train_slt42 track_60)
+42.0: (walk_and_enter_and_move_bside driver_Andy train_slt41 track_60 track_59 track_62_service)
+43.0: (exit driver_Andy train_slt41 track_62_service)
+44.0: (service_train train_slt41 track_62_service)
+45.0: (walk_and_enter_and_move_aside driver_Andy train_slt41 track_62_service track_62_service track_59)
+46.0: (exit driver_Andy train_slt41 track_59)
+47.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_59 track_60 track_63)
+48.0: (exit driver_Andy train_slt44 track_63)
+49.0: (walk_and_enter_and_move_bside driver_Andy train_slt43 track_63 track_61_service track_63)
+50.0: (exit driver_Andy train_slt43 track_63)
+51.0: (walk_and_enter_and_move_aside driver_Andy train_slt43 track_63 track_63 track_60)
+52.0: (exit driver_Andy train_slt43 track_60)
+53.0: (park train_slt41 train_slt43 track_59 track_60)
+54.0: (walk_and_enter_and_move_aside driver_Andy train_slt42 track_60 track_60 track_56)
+55.0: (exit driver_Andy train_slt42 track_56)
+56.0: (walk_and_enter_and_move_aside driver_Andy train_slt44 track_56 track_63 track_62_service)
+57.0: (exit driver_Andy train_slt44 track_62_service)
+58.0: (park train_slt41 train_slt42 track_59 track_56)
+59.0: (service_train train_slt44 track_62_service)
+60.0: (walk_and_enter_and_move_bside driver_Andy train_slt44 track_62_service track_62_service track_63)
+61.0: (exit driver_Andy train_slt44 track_63)
+62.0: (walk_and_enter_and_move_aside driver_Andy train_slt40 track_63 track_60 track_52)
+63.0: (park train_slt40 train_slt42 track_52 track_56)
+64.0: (park train_slt40 train_slt43 track_52 track_60)
+65.0: (park train_slt43 train_slt44 track_60 track_63)
+66.0: (park train_slt42 train_slt43 track_56 track_60)
+67.0: (park train_slt40 train_slt44 track_52 track_63)
+68.0: (park train_slt41 train_slt44 track_59 track_63)
+69.0: (park train_slt40 train_slt41 track_52 track_59)
+70.0: (park train_slt42 train_slt44 track_56 track_63)
+
+Plan-Length:71
+Metric (Search):225.0
+Planning Time (msec): 32400
+Heuristic Time (msec): 31502
+Search Time (msec): 32400
+Expanded Nodes:2562
+States Evaluated:4638
+Number of Dead-Ends detected:3808
+Number of Duplicates detected:4365
+NEW COST ==================================================================================>225.0
+ g(n)= 39.0 h(n)=94.0
+ g(n)= 64.0 h(n)=93.0
+ g(n)= 79.0 h(n)=90.0
+ g(n)= 81.0 h(n)=78.0
+ g(n)= 95.0 h(n)=70.0
+ g(n)= 97.0 h(n)=55.0
+ g(n)= 129.0 h(n)=49.0
+ g(n)= 164.0 h(n)=43.0
+ g(n)= 170.0 h(n)=40.0
+ g(n)= 172.0 h(n)=36.0
+ g(n)= 182.0 h(n)=32.0
+ g(n)= 184.0 h(n)=30.0
+ g(n)= 190.0 h(n)=26.0
+ g(n)= 192.0 h(n)=24.0
+ g(n)= 197.0 h(n)=22.0
+ g(n)= 216.0 h(n)=19.0
+ g(n)= 211.0 h(n)=15.0
+ g(n)= 224.0 h(n)=11.0
+-------------Time: 10s ; Expanded Nodes: 296 (Avg-Speed 29.0 n/s); Evaluated States: 970
+ g(n)= 222.0 h(n)=10.0
+ g(n)= 224.0 h(n)=9.0
+ g(n)= 224.0 h(n)=6.0
+-------------Time: 20s ; Expanded Nodes: 1169 (Avg-Speed 58.0 n/s); Evaluated States: 2399
+ g(n)= 224.0 h(n)=3.0
+-------------Time: 30s ; Expanded Nodes: 2726 (Avg-Speed 90.0 n/s); Evaluated States: 4639
+-------------Time: 40s ; Expanded Nodes: 5205 (Avg-Speed 130.0 n/s); Evaluated States: 7208
+-------------Time: 50s ; Expanded Nodes: 6759 (Avg-Speed 135.0 n/s); Evaluated States: 8795
+-------------Time: 60s ; Expanded Nodes: 7438 (Avg-Speed 123.0 n/s); Evaluated States: 10052
+-------------Time: 70s ; Expanded Nodes: 8283 (Avg-Speed 118.0 n/s); Evaluated States: 11034
+-------------Time: 80s ; Expanded Nodes: 9071 (Avg-Speed 113.0 n/s); Evaluated States: 11987
+-------------Time: 90s ; Expanded Nodes: 9859 (Avg-Speed 109.0 n/s); Evaluated States: 13172
+-------------Time: 100s ; Expanded Nodes: 10561 (Avg-Speed 105.0 n/s); Evaluated States: 14211

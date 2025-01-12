@@ -1,0 +1,82 @@
+
+ff: parsing domain file
+domain 'DOM_4B' defined
+ ... done.
+ff: parsing problem file
+problem 'BH_16_3T' defined
+ ... done.
+
+
+translating negated cond for predicate =
+translating negated cond for predicate AHEAD_ASIDE
+translating negated cond for predicate OPERATED
+translating negated cond for predicate SERVICED
+translating negated cond for predicate DIRECTION_ASIDE
+translating negated cond for predicate DIRECTION_BSIDE
+
+task contains conditional effects. turning off state domination.
+
+
+warning: numeric precondition. turning cost-minimizing relaxed plans OFF.
+
+ff: search configuration is Enforced Hill-Climbing, then A*epsilon with weight 5.
+Metric is ((1.00*[RF42](TOTAL-COST)) - () + 0.00)
+COST MINIMIZATION DONE (WITHOUT cost-minimizing relaxed plans).
+
+Cueing down from goal distance:   24 into depth [1][2][3]
+                                  19            [1]
+                                  18            [1][2]
+                                  17            [1][2][3][4]
+                                  15            [1]
+                                  13            [1]
+                                  12            [1][2][3][4]
+                                  11            [1]
+                                  10            [1][2]
+                                   7            [1]
+                                   6            [1][2]
+                                   5            [1]
+                                   4            [1][2]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+step    0: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT40 TRACK_ENTRY TRACK_59
+        1: EXIT DRIVER_ANDY TRAIN_SLT40 TRACK_59
+        2: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT41 TRACK_ENTRY TRACK_59
+        3: EXIT DRIVER_ANDY TRAIN_SLT41 TRACK_59
+        4: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT42 TRACK_ENTRY TRACK_59
+        5: EXIT DRIVER_ANDY TRAIN_SLT42 TRACK_59
+        6: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT40 TRACK_59 TRACK_62_SERVICE
+        7: EXIT DRIVER_ANDY TRAIN_SLT40 TRACK_62_SERVICE
+        8: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT41 TRACK_59 TRACK_61_SERVICE
+        9: MOVE_ASIDE TRAIN_SLT41 TRACK_61_SERVICE TRACK_56
+       10: EXIT DRIVER_ANDY TRAIN_SLT41 TRACK_56
+       11: SERVICE_TRAIN TRAIN_SLT40 TRACK_62_SERVICE
+       12: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT42 TRACK_59 TRACK_61_SERVICE
+       13: EXIT DRIVER_ANDY TRAIN_SLT42 TRACK_61_SERVICE
+       14: ENTER_AND_MOVE_ASIDE DRIVER_ANDY TRAIN_SLT40 TRACK_62_SERVICE TRACK_59
+       15: EXIT DRIVER_ANDY TRAIN_SLT40 TRACK_59
+       16: SERVICE_TRAIN TRAIN_SLT42 TRACK_61_SERVICE
+       17: ENTER_AND_MOVE_BSIDE DRIVER_ANDY TRAIN_SLT41 TRACK_56 TRACK_62_SERVICE
+       18: EXIT DRIVER_ANDY TRAIN_SLT41 TRACK_62_SERVICE
+       19: SERVICE_TRAIN TRAIN_SLT41 TRACK_62_SERVICE
+       20: ENTER_AND_MOVE_ASIDE DRIVER_ANDY TRAIN_SLT42 TRACK_61_SERVICE TRACK_56
+       21: EXIT DRIVER_ANDY TRAIN_SLT42 TRACK_56
+       22: PARK TRAIN_SLT40 TRAIN_SLT42 TRACK_59 TRACK_56
+       23: ENTER_AND_MOVE_ASIDE DRIVER_ANDY TRAIN_SLT41 TRACK_62_SERVICE TRACK_56
+       24: MOVE_BSIDE TRAIN_SLT41 TRACK_56 TRACK_60
+       25: MOVE_ASIDE TRAIN_SLT41 TRACK_60 TRACK_52
+       26: PARK TRAIN_SLT40 TRAIN_SLT41 TRACK_59 TRACK_52
+       27: PARK TRAIN_SLT41 TRAIN_SLT42 TRACK_52 TRACK_56
+plan cost: 85.000000
+
+time spent:  101.19 seconds instantiating 42 easy, 897 hard action templates
+               8.45 seconds reachability analysis, yielding 79 facts and 939 actions
+              30.06 seconds creating final representation with 73 relevant facts, 158 relevant fluents
+             227.66 seconds computing LNF
+              80.18 seconds building connectivity graph
+            3997.76 seconds searching, evaluating 335 states, to a max depth of 4
+            4445.30 seconds total time
+
